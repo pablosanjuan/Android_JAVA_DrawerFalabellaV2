@@ -11,9 +11,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
 import android.widget.Toast;
 
-import com.example.seratic.drawerfalabella.Fragments.InboxFragment;
+import com.example.seratic.drawerfalabella.Fragments.BandejaClientes;
 import com.example.seratic.drawerfalabella.Fragments.StarredFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -76,21 +78,6 @@ public class MainActivity extends AppCompatActivity {
                                 setFragment(0);
                                 drawerLayout.closeDrawer(GravityCompat.START);
                                 return true;
-                            case R.id.item_navigation_drawer_starred:
-                                menuItem.setChecked(true);
-                                setFragment(1);
-                                drawerLayout.closeDrawer(GravityCompat.START);
-                                return true;
-                            case R.id.item_navigation_drawer_sent_mail:
-                                menuItem.setChecked(true);
-                                Toast.makeText(MainActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
-                                drawerLayout.closeDrawer(GravityCompat.START);
-                                return true;
-                            case R.id.item_navigation_drawer_drafts:
-                                menuItem.setChecked(true);
-                                Toast.makeText(MainActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
-                                drawerLayout.closeDrawer(GravityCompat.START);
-                                return true;
                             case R.id.item_navigation_drawer_settings:
                                 menuItem.setChecked(true);
                                 Toast.makeText(MainActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
@@ -100,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                                 return true;
                             case R.id.item_navigation_drawer_help_and_feedback:
                                 menuItem.setChecked(true);
-                                Toast.makeText(MainActivity.this, menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
+                                setFragment(1);
                                 drawerLayout.closeDrawer(GravityCompat.START);
                                 return true;
                         }
@@ -116,8 +103,8 @@ public class MainActivity extends AppCompatActivity {
             case 0:
                 fragmentManager = getSupportFragmentManager();
                 fragmentTransaction = fragmentManager.beginTransaction();
-                InboxFragment inboxFragment = new InboxFragment();
-                fragmentTransaction.replace(R.id.fragment, inboxFragment);
+                BandejaClientes bandejaClientes = new BandejaClientes();
+                fragmentTransaction.replace(R.id.fragment, bandejaClientes);
                 fragmentTransaction.commit();
                 break;
             case 1:
@@ -127,6 +114,15 @@ public class MainActivity extends AppCompatActivity {
                 fragmentTransaction.replace(R.id.fragment, starredFragment);
                 fragmentTransaction.commit();
                 break;
+        }
+    }
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.navigation_drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
         }
     }
 }

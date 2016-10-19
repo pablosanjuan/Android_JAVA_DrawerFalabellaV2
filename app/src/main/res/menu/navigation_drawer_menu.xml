@@ -5,33 +5,17 @@
         <item
             android:checked="true"
             android:id="@+id/item_navigation_drawer_inbox"
-            android:icon="@drawable/ic_inbox_black_24dp"
-            android:title="Inbox" />
-        <item
-            android:id="@+id/item_navigation_drawer_starred"
-            android:icon="@drawable/ic_action_toggle_star"
-            android:title="Starred" />
-        <item
-            android:id="@+id/item_navigation_drawer_sent_mail"
-            android:icon="@drawable/ic_action_content_send"
-            android:title="Sent mail" />
-        <item
-            android:id="@+id/item_navigation_drawer_drafts"
-            android:icon="@drawable/ic_action_content_drafts"
-            android:title="Drafts" />
+            android:icon="@drawable/ic_youtube_searched_for_black_24dp"
+            android:title="Bandeja de Clientes" />
     </group>
-
-    <item android:title="Subheader">
-        <menu>
+    <group android:checkableBehavior="single">
             <item
                 android:id="@+id/item_navigation_drawer_settings"
-                android:icon="@drawable/ic_action_content_mail"
-                android:title="Settings" />
+                android:icon="@drawable/ic_inbox_black_24dp"
+                android:title="Resumen de Consultas" />
             <item
                 android:id="@+id/item_navigation_drawer_help_and_feedback"
-                android:icon="@drawable/ic_action_action_delete"
-                android:title="Help and feedback" />
-        </menu>
-    </item>
-
+                android:icon="@drawable/ic_phone_black_24dp"
+                android:title="Registro de Llamadas" />
+    </group>
 </menu>

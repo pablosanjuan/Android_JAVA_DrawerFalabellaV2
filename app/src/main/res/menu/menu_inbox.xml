@@ -8,6 +8,6 @@
         android:orderInCategory="101"
         android:title="@string/action_settings"
         app:actionViewClass="android.support.v7.widget.SearchView"
-        android:icon="@mipmap/ic_action_toggle_star"
+        android:icon="@drawable/ic_search_white_24dp"
         app:showAsAction="ifRoom|collapseActionView" />
 </menu>

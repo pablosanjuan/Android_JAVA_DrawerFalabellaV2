@@ -20,7 +20,7 @@ public class StarredFragment extends Fragment {
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.fragment_starred, container, false);
 
-        ((MainActivity) getActivity()).getSupportActionBar().setTitle("Inbox");
+        ((MainActivity) getActivity()).getSupportActionBar().setTitle("");
 
         Button buttonChangeText = (Button) view.findViewById(R.id.buttonFragmentStarred);
 

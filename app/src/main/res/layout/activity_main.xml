@@ -14,7 +14,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/status_bar_kitkat_height"
-            android:background="?colorPrimary"/>
+            android:background="@color/md_green_900"/>
 
         <FrameLayout
             android:layout_width="match_parent"
