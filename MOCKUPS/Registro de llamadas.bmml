@@ -1,0 +1,3133 @@
+<mockup version="1.0" skin="wireframe" fontFace="Trebuchet MS" measuredW="3970" measuredH="3774" mockupW="3772" mockupH="3611">
+  <controls>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="1110" y="163" w="606" h="1157" measuredW="304" measuredH="568" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/cel2%25201.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Arrow" x="1222" y="661" w="432" h="2" measuredW="431" measuredH="1" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999999,4.152064136972478e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Arrow" x="1218" y="555" w="431" h="1" measuredW="430" measuredH="0" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.4999999999999999,4.152064136972478e-19</p1>
+        <p2>430,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="1221" y="608" w="145" h="-1" measuredW="171" measuredH="25" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>RONALDINHO%20GAUCHO</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="1219" y="584" w="139" h="-1" measuredW="138" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Image" x="1608" y="392" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_youtube_searched_for_black_24dp%25203.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Image" x="1500" y="1254" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Image" x="1506" y="1166" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_visibility_off_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Image" x="1506" y="1337" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_warning_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::StickyNote" x="1214" y="1166" w="361" h="259" measuredW="109" measuredH="123" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>3700253</color>
+        <size>24</size>
+        <text>Usuario%20no%20encontrado%0A%20%0A%20%0AUsuario%20aprobado%0A%20%0A%20%0AUsuario%20denegado</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Image" x="1166" y="475" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Image" x="1166" y="596" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_visibility_off_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Image" x="1165" y="901" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_warning_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Image" x="1166" y="698" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::TextArea" x="1152" y="291" w="510" h="90" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Icon" x="1173" y="312" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>bars%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::TextArea" x="1169" y="393" w="430" h="46" measuredW="200" measuredH="140" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <size>32</size>
+        <text>dni%2C%20nombre%2C%20celular</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="1221" y="630" w="132" h="-1" measuredW="104" measuredH="25" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Label" x="1579" y="689" w="66" h="-1" measuredW="40" measuredH="27" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>8%20hr</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="1221" y="716" w="358" h="-1" measuredW="227" measuredH="25" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Label" x="1221" y="689" w="100" h="-1" measuredW="91" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Icon" x="1610" y="721" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="1222" y="737" w="358" h="-1" measuredW="159" measuredH="25" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Label" x="1589" y="584" w="66" h="-1" measuredW="65" measuredH="27" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Icon" x="1610" y="612" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Label" x="1223" y="496" w="145" h="-1" measuredW="104" measuredH="25" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>PEPITO%20PEREZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Label" x="1221" y="472" w="139" h="-1" measuredW="138" measuredH="27" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Label" x="1223" y="518" w="132" h="-1" measuredW="104" measuredH="25" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Label" x="1589" y="472" w="66" h="-1" measuredW="65" measuredH="27" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Icon" x="1612" y="500" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Image" x="1166" y="805" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="1579" y="796" w="66" h="-1" measuredW="64" measuredH="27" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>20%20sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Label" x="1221" y="823" w="358" h="-1" measuredW="220" measuredH="25" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>FALCAO%20GARC%CDA%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Label" x="1221" y="796" w="100" h="-1" measuredW="91" measuredH="27" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Icon" x="1610" y="828" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="1222" y="844" w="358" h="-1" measuredW="159" measuredH="25" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Arrow" x="1222" y="769" w="432" h="2" measuredW="431" measuredH="1" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.49999999999999983,3.060013289090773e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Arrow" x="1222" y="875" w="432" h="2" measuredW="431" measuredH="1" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Label" x="1579" y="893" w="66" h="-1" measuredW="58" measuredH="27" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>14sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Label" x="1222" y="920" w="358" h="-1" measuredW="201" measuredH="25" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>DAVID%20OSPINA%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Label" x="1222" y="893" w="100" h="-1" measuredW="91" measuredH="27" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Icon" x="1611" y="925" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Label" x="1223" y="941" w="358" h="-1" measuredW="159" measuredH="25" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::Arrow" x="1223" y="972" w="432" h="2" measuredW="431" measuredH="1" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::Arrow" x="1654" y="418" w="237" h="87" measuredW="236" measuredH="86" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.5,0</p1>
+        <p2>236,86</p2>
+        <shape>bezier</shape>
+        <size>28</size>
+        <text>Buscar%20cliente</text>
+      </controlProperties>
+    </control>
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::Image" x="1924" y="171" w="606" h="1157" measuredW="304" measuredH="568" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/cel2%25201.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="89" controlTypeID="com.balsamiq.mockups::Arrow" x="2036" y="669" w="432" h="2" measuredW="431" measuredH="1" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.49999999999999983,3.060013289090773e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::Arrow" x="2032" y="563" w="431" h="1" measuredW="430" measuredH="0" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.49999999999999983,4.152064136972478e-19</p1>
+        <p2>430,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Label" x="2035" y="616" w="145" h="-1" measuredW="126" measuredH="25" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Label" x="2033" y="592" w="139" h="-1" measuredW="138" measuredH="27" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="95" controlTypeID="com.balsamiq.mockups::Image" x="1980" y="483" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="96" controlTypeID="com.balsamiq.mockups::Image" x="1980" y="604" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_visibility_off_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="97" controlTypeID="com.balsamiq.mockups::Image" x="1979" y="909" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_warning_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="98" controlTypeID="com.balsamiq.mockups::Image" x="1980" y="706" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="99" controlTypeID="com.balsamiq.mockups::TextArea" x="1966" y="299" w="510" h="90" measuredW="200" measuredH="140" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+      </controlProperties>
+    </control>
+    <control controlID="100" controlTypeID="com.balsamiq.mockups::Image" x="2422" y="400" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_youtube_searched_for_black_24dp%25203.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="101" controlTypeID="com.balsamiq.mockups::Icon" x="1987" y="320" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>bars%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="102" controlTypeID="com.balsamiq.mockups::TextArea" x="1983" y="401" w="430" h="46" measuredW="200" measuredH="140" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <size>32</size>
+        <text>001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::Label" x="2035" y="638" w="132" h="-1" measuredW="182" measuredH="25" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20SI.%20Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Label" x="2393" y="697" w="66" h="-1" measuredW="40" measuredH="27" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>8%20hr</text>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::Label" x="2035" y="724" w="358" h="-1" measuredW="227" measuredH="25" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::Label" x="2035" y="697" w="100" h="-1" measuredW="91" measuredH="27" zOrder="61" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::Icon" x="2424" y="729" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::Label" x="2036" y="745" w="358" h="-1" measuredW="159" measuredH="25" zOrder="63" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="109" controlTypeID="com.balsamiq.mockups::Label" x="2403" y="592" w="66" h="-1" measuredW="65" measuredH="27" zOrder="64" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::Icon" x="2424" y="620" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="65" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::Label" x="2037" y="504" w="145" h="-1" measuredW="126" measuredH="25" zOrder="66" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::Label" x="2035" y="480" w="139" h="-1" measuredW="138" measuredH="27" zOrder="67" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::Label" x="2037" y="526" w="132" h="-1" measuredW="182" measuredH="25" zOrder="68" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20SI.%20Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::Label" x="2403" y="480" w="66" h="-1" measuredW="65" measuredH="27" zOrder="69" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Icon" x="2426" y="508" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="70" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::Image" x="1980" y="813" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="71" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="117" controlTypeID="com.balsamiq.mockups::Label" x="2393" y="804" w="66" h="-1" measuredW="64" measuredH="27" zOrder="72" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>20%20sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::Label" x="2035" y="831" w="358" h="-1" measuredW="227" measuredH="25" zOrder="73" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::Label" x="2035" y="804" w="100" h="-1" measuredW="91" measuredH="27" zOrder="74" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Icon" x="2424" y="836" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="75" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::Label" x="2036" y="852" w="358" h="-1" measuredW="159" measuredH="25" zOrder="76" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::Arrow" x="2036" y="777" w="432" h="2" measuredW="431" measuredH="1" zOrder="77" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Arrow" x="2036" y="883" w="432" h="2" measuredW="431" measuredH="1" zOrder="78" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="124" controlTypeID="com.balsamiq.mockups::Label" x="2393" y="901" w="66" h="-1" measuredW="58" measuredH="27" zOrder="79" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>14sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="125" controlTypeID="com.balsamiq.mockups::Label" x="2036" y="928" w="358" h="-1" measuredW="227" measuredH="25" zOrder="80" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="126" controlTypeID="com.balsamiq.mockups::Label" x="2036" y="901" w="100" h="-1" measuredW="91" measuredH="27" zOrder="81" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::Icon" x="2425" y="933" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="82" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::Label" x="2037" y="949" w="358" h="-1" measuredW="159" measuredH="25" zOrder="83" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::Arrow" x="2037" y="980" w="432" h="2" measuredW="431" measuredH="1" zOrder="84" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::Arrow" x="2474" y="390" w="205" h="39" measuredW="204" measuredH="38" zOrder="125" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <curvature>1</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,32</p0>
+        <p1>0.476056042123508,0.16894047822261907</p1>
+        <p2>204,38</p2>
+        <shape>bezier</shape>
+        <size>28</size>
+        <text>Buscar</text>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::Image" x="2666" y="179" w="606" h="1157" measuredW="304" measuredH="568" zOrder="85" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/cel2%25201.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::Arrow" x="2778" y="677" w="432" h="2" measuredW="431" measuredH="1" zOrder="86" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::Arrow" x="2774" y="571" w="431" h="1" measuredW="430" measuredH="0" zOrder="87" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.4999999999999997,4.152064136972478e-19</p1>
+        <p2>430,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="135" controlTypeID="com.balsamiq.mockups::Label" x="2777" y="624" w="145" h="-1" measuredW="126" measuredH="25" zOrder="88" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::Label" x="2775" y="600" w="139" h="-1" measuredW="138" measuredH="27" zOrder="89" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="139" controlTypeID="com.balsamiq.mockups::Image" x="2722" y="491" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="90" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="140" controlTypeID="com.balsamiq.mockups::Image" x="2722" y="612" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="91" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_visibility_off_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::Image" x="2721" y="917" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="92" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_warning_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::Image" x="2722" y="714" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="93" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::TextArea" x="2708" y="307" w="510" h="90" measuredW="200" measuredH="140" zOrder="94" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::Image" x="3164" y="408" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="95" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_youtube_searched_for_black_24dp%25203.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="145" controlTypeID="com.balsamiq.mockups::Icon" x="2729" y="328" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="96" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>bars%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="146" controlTypeID="com.balsamiq.mockups::TextArea" x="2725" y="409" w="431" h="47" measuredW="200" measuredH="140" zOrder="97" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <size>32</size>
+        <text>001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="147" controlTypeID="com.balsamiq.mockups::Label" x="2777" y="646" w="132" h="-1" measuredW="104" measuredH="25" zOrder="98" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="148" controlTypeID="com.balsamiq.mockups::Label" x="3135" y="705" w="66" h="-1" measuredW="40" measuredH="27" zOrder="99" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>8%20hr</text>
+      </controlProperties>
+    </control>
+    <control controlID="149" controlTypeID="com.balsamiq.mockups::Label" x="2777" y="732" w="358" h="-1" measuredW="227" measuredH="25" zOrder="100" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="150" controlTypeID="com.balsamiq.mockups::Label" x="2777" y="705" w="100" h="-1" measuredW="91" measuredH="27" zOrder="101" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::Icon" x="3166" y="737" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="102" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::Label" x="2778" y="753" w="358" h="-1" measuredW="159" measuredH="25" zOrder="103" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::Label" x="3145" y="600" w="66" h="-1" measuredW="65" measuredH="27" zOrder="104" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::Icon" x="3166" y="628" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="105" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::Label" x="2779" y="512" w="145" h="-1" measuredW="126" measuredH="25" zOrder="106" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::Label" x="2777" y="488" w="139" h="-1" measuredW="138" measuredH="27" zOrder="107" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::Label" x="2779" y="534" w="132" h="-1" measuredW="104" measuredH="25" zOrder="108" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::Label" x="3145" y="488" w="66" h="-1" measuredW="65" measuredH="27" zOrder="109" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Icon" x="3168" y="516" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="110" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::Image" x="2722" y="821" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="111" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Label" x="3135" y="812" w="66" h="-1" measuredW="64" measuredH="27" zOrder="112" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>20%20sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Label" x="2777" y="839" w="358" h="-1" measuredW="227" measuredH="25" zOrder="113" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Label" x="2777" y="812" w="100" h="-1" measuredW="91" measuredH="27" zOrder="114" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Icon" x="3166" y="844" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="115" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Label" x="2778" y="860" w="358" h="-1" measuredW="159" measuredH="25" zOrder="116" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Arrow" x="2778" y="785" w="432" h="2" measuredW="431" measuredH="1" zOrder="117" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::Arrow" x="2778" y="891" w="432" h="2" measuredW="431" measuredH="1" zOrder="118" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::Label" x="3135" y="909" w="66" h="-1" measuredW="58" measuredH="27" zOrder="119" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>14sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="169" controlTypeID="com.balsamiq.mockups::Label" x="2778" y="936" w="358" h="-1" measuredW="227" measuredH="25" zOrder="120" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="170" controlTypeID="com.balsamiq.mockups::Label" x="2778" y="909" w="100" h="-1" measuredW="91" measuredH="27" zOrder="121" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="171" controlTypeID="com.balsamiq.mockups::Icon" x="3167" y="941" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="122" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="172" controlTypeID="com.balsamiq.mockups::Label" x="2779" y="957" w="358" h="-1" measuredW="159" measuredH="25" zOrder="123" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::Arrow" x="2779" y="988" w="432" h="2" measuredW="431" measuredH="1" zOrder="124" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="177" controlTypeID="com.balsamiq.mockups::TextArea" x="2722" y="408" w="484" h="797" measuredW="200" measuredH="140" zOrder="126" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <color>13421772</color>
+        <size>32</size>
+        <text>APROBADO%0A%20</text>
+        <textColor>40463</textColor>
+      </controlProperties>
+    </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::Label" x="2891" y="481" w="145" h="-1" measuredW="126" measuredH="25" zOrder="127" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="179" controlTypeID="com.balsamiq.mockups::Icon" x="2770" y="469" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="128" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>user%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="180" controlTypeID="com.balsamiq.mockups::Icon" x="2764" y="805" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="129" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>phone%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Icon" x="2770" y="539" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="130" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>credit-card-alt%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::Label" x="2884" y="551" w="145" h="-1" measuredW="106" measuredH="25" zOrder="131" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>CE%3A001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::Arrow" x="2756" y="613" w="401" h="1" measuredW="400" measuredH="0" zOrder="132" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.5,0</p1>
+        <p2>400,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::Label" x="2756" y="716" w="231" h="-1" measuredW="201" measuredH="35" zOrder="133" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Concreto%20venta%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="186" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3003" y="692" w="-1" h="-1" measuredW="58" measuredH="67" zOrder="134" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>%5BX%5D%20SI%0A%5B%5D%20NO</text>
+      </controlProperties>
+    </control>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::Button" x="2778" y="916" w="400" h="32" measuredW="104" measuredH="32" zOrder="135" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Aceptar</text>
+      </controlProperties>
+    </control>
+    <control controlID="188" controlTypeID="com.balsamiq.mockups::TextInput" x="2884" y="818" w="208" h="-1" measuredW="185" measuredH="34" zOrder="136" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Ingrese%20telef%F3no</text>
+      </controlProperties>
+    </control>
+    <control controlID="189" controlTypeID="com.balsamiq.mockups::Image" x="3336" y="192" w="606" h="1157" measuredW="304" measuredH="568" zOrder="137" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/cel2%25201.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="190" controlTypeID="com.balsamiq.mockups::Arrow" x="3448" y="690" w="432" h="2" measuredW="431" measuredH="1" zOrder="138" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="191" controlTypeID="com.balsamiq.mockups::Arrow" x="3444" y="584" w="431" h="1" measuredW="430" measuredH="0" zOrder="139" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.4999999999999997,4.152064136972478e-19</p1>
+        <p2>430,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="192" controlTypeID="com.balsamiq.mockups::Label" x="3447" y="637" w="145" h="-1" measuredW="126" measuredH="25" zOrder="140" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="193" controlTypeID="com.balsamiq.mockups::Label" x="3445" y="613" w="139" h="-1" measuredW="138" measuredH="27" zOrder="141" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::Image" x="3392" y="504" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="142" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::Image" x="3392" y="625" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="143" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_visibility_off_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::Image" x="3391" y="930" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="144" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_warning_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="197" controlTypeID="com.balsamiq.mockups::Image" x="3392" y="727" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="145" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::TextArea" x="3378" y="320" w="510" h="90" measuredW="200" measuredH="140" zOrder="146" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+      </controlProperties>
+    </control>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::Image" x="3834" y="421" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="147" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_youtube_searched_for_black_24dp%25203.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="200" controlTypeID="com.balsamiq.mockups::Icon" x="3399" y="341" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="148" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>bars%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="201" controlTypeID="com.balsamiq.mockups::TextArea" x="3395" y="422" w="431" h="47" measuredW="200" measuredH="140" zOrder="149" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <size>32</size>
+        <text>001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="202" controlTypeID="com.balsamiq.mockups::Label" x="3447" y="659" w="132" h="-1" measuredW="104" measuredH="25" zOrder="150" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="203" controlTypeID="com.balsamiq.mockups::Label" x="3805" y="718" w="66" h="-1" measuredW="40" measuredH="27" zOrder="151" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>8%20hr</text>
+      </controlProperties>
+    </control>
+    <control controlID="204" controlTypeID="com.balsamiq.mockups::Label" x="3447" y="745" w="358" h="-1" measuredW="227" measuredH="25" zOrder="152" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="205" controlTypeID="com.balsamiq.mockups::Label" x="3447" y="718" w="100" h="-1" measuredW="91" measuredH="27" zOrder="153" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="206" controlTypeID="com.balsamiq.mockups::Icon" x="3836" y="750" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="154" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="207" controlTypeID="com.balsamiq.mockups::Label" x="3448" y="766" w="358" h="-1" measuredW="159" measuredH="25" zOrder="155" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="208" controlTypeID="com.balsamiq.mockups::Label" x="3815" y="613" w="66" h="-1" measuredW="65" measuredH="27" zOrder="156" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="209" controlTypeID="com.balsamiq.mockups::Icon" x="3836" y="641" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="157" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="210" controlTypeID="com.balsamiq.mockups::Label" x="3449" y="525" w="145" h="-1" measuredW="126" measuredH="25" zOrder="158" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="211" controlTypeID="com.balsamiq.mockups::Label" x="3447" y="501" w="139" h="-1" measuredW="138" measuredH="27" zOrder="159" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="212" controlTypeID="com.balsamiq.mockups::Label" x="3449" y="547" w="132" h="-1" measuredW="104" measuredH="25" zOrder="160" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="213" controlTypeID="com.balsamiq.mockups::Label" x="3815" y="501" w="66" h="-1" measuredW="65" measuredH="27" zOrder="161" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="214" controlTypeID="com.balsamiq.mockups::Icon" x="3838" y="529" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="162" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="215" controlTypeID="com.balsamiq.mockups::Image" x="3392" y="834" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="163" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="216" controlTypeID="com.balsamiq.mockups::Label" x="3805" y="825" w="66" h="-1" measuredW="64" measuredH="27" zOrder="164" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>20%20sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="217" controlTypeID="com.balsamiq.mockups::Label" x="3447" y="852" w="358" h="-1" measuredW="227" measuredH="25" zOrder="165" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="218" controlTypeID="com.balsamiq.mockups::Label" x="3447" y="825" w="100" h="-1" measuredW="91" measuredH="27" zOrder="166" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="219" controlTypeID="com.balsamiq.mockups::Icon" x="3836" y="857" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="167" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="220" controlTypeID="com.balsamiq.mockups::Label" x="3448" y="873" w="358" h="-1" measuredW="159" measuredH="25" zOrder="168" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="221" controlTypeID="com.balsamiq.mockups::Arrow" x="3448" y="798" w="432" h="2" measuredW="431" measuredH="1" zOrder="169" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="222" controlTypeID="com.balsamiq.mockups::Arrow" x="3448" y="904" w="432" h="2" measuredW="431" measuredH="1" zOrder="170" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="223" controlTypeID="com.balsamiq.mockups::Label" x="3805" y="922" w="66" h="-1" measuredW="58" measuredH="27" zOrder="171" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>14sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="224" controlTypeID="com.balsamiq.mockups::Label" x="3448" y="949" w="358" h="-1" measuredW="227" measuredH="25" zOrder="172" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="225" controlTypeID="com.balsamiq.mockups::Label" x="3448" y="922" w="100" h="-1" measuredW="91" measuredH="27" zOrder="173" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="226" controlTypeID="com.balsamiq.mockups::Icon" x="3837" y="954" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="174" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="227" controlTypeID="com.balsamiq.mockups::Label" x="3449" y="970" w="358" h="-1" measuredW="159" measuredH="25" zOrder="175" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="228" controlTypeID="com.balsamiq.mockups::Arrow" x="3449" y="1001" w="432" h="2" measuredW="431" measuredH="1" zOrder="176" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="229" controlTypeID="com.balsamiq.mockups::TextArea" x="3392" y="421" w="484" h="784" measuredW="200" measuredH="140" zOrder="177" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <color>13421772</color>
+        <size>32</size>
+        <text>APROBADO%0A%20</text>
+        <textColor>40463</textColor>
+      </controlProperties>
+    </control>
+    <control controlID="230" controlTypeID="com.balsamiq.mockups::Label" x="3561" y="494" w="145" h="-1" measuredW="126" measuredH="25" zOrder="178" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="231" controlTypeID="com.balsamiq.mockups::Icon" x="3440" y="482" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="179" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>user%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="233" controlTypeID="com.balsamiq.mockups::Icon" x="3440" y="552" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="180" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>credit-card-alt%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="234" controlTypeID="com.balsamiq.mockups::Label" x="3554" y="564" w="145" h="-1" measuredW="106" measuredH="25" zOrder="181" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>CE%3A001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="235" controlTypeID="com.balsamiq.mockups::Arrow" x="3426" y="683" w="401" h="1" measuredW="400" measuredH="0" zOrder="182" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.5,0</p1>
+        <p2>400,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="236" controlTypeID="com.balsamiq.mockups::Label" x="3426" y="729" w="231" h="-1" measuredW="201" measuredH="35" zOrder="183" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Concreto%20venta%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="237" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3673" y="705" w="-1" h="-1" measuredW="58" measuredH="67" zOrder="184" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>%5B%5D%20SI%0A%5Bx%5D%20NO</text>
+      </controlProperties>
+    </control>
+    <control controlID="238" controlTypeID="com.balsamiq.mockups::Button" x="3434" y="1139" w="400" h="32" measuredW="104" measuredH="32" zOrder="185" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Aceptar</text>
+      </controlProperties>
+    </control>
+    <control controlID="241" controlTypeID="com.balsamiq.mockups::Label" x="3426" y="818" w="231" h="-1" measuredW="201" measuredH="35" zOrder="186" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Concreto%20venta%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="242" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3673" y="823" w="-1" h="-1" measuredW="37" measuredH="103" zOrder="187" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>%5B%5D%20A%0A%5Bx%5D%20B%0A%5B%5D%20C</text>
+      </controlProperties>
+    </control>
+    <control controlID="245" controlTypeID="com.balsamiq.mockups::CallOut" x="1152" y="201" w="103" h="74" measuredW="154" measuredH="39" zOrder="188" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Band.%20clientes</text>
+      </controlProperties>
+    </control>
+    <control controlID="246" controlTypeID="com.balsamiq.mockups::CallOut" x="1980" y="201" w="103" h="74" measuredW="142" measuredH="39" zOrder="189" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Busc.%20cliente</text>
+      </controlProperties>
+    </control>
+    <control controlID="247" controlTypeID="com.balsamiq.mockups::Arrow" x="524" y="632" w="599" h="9" measuredW="598" measuredH="8" zOrder="407" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.49999999999999994,0</p1>
+        <p2>598,8</p2>
+        <shape>bezier</shape>
+        <size>28</size>
+        <text>Bandeja%20de%20clientes</text>
+      </controlProperties>
+    </control>
+    <control controlID="248" controlTypeID="com.balsamiq.mockups::CallOut" x="2722" y="209" w="123" h="74" measuredW="197" measuredH="39" zOrder="190" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>cliente.%20aprobado1</text>
+      </controlProperties>
+    </control>
+    <control controlID="249" controlTypeID="com.balsamiq.mockups::CallOut" x="3378" y="226" w="123" h="74" measuredW="197" measuredH="39" zOrder="191" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>cliente.%20aprobado2</text>
+      </controlProperties>
+    </control>
+    <control controlID="250" controlTypeID="com.balsamiq.mockups::Image" x="2679" y="1385" w="606" h="1157" measuredW="304" measuredH="568" zOrder="192" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/cel2%25201.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="251" controlTypeID="com.balsamiq.mockups::Arrow" x="2791" y="1883" w="432" h="2" measuredW="431" measuredH="1" zOrder="193" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="252" controlTypeID="com.balsamiq.mockups::Arrow" x="2787" y="1777" w="431" h="1" measuredW="430" measuredH="0" zOrder="194" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.4999999999999997,4.152064136972478e-19</p1>
+        <p2>430,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="253" controlTypeID="com.balsamiq.mockups::Label" x="2790" y="1830" w="145" h="-1" measuredW="126" measuredH="25" zOrder="195" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="254" controlTypeID="com.balsamiq.mockups::Label" x="2788" y="1806" w="139" h="-1" measuredW="138" measuredH="27" zOrder="196" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="255" controlTypeID="com.balsamiq.mockups::Image" x="2735" y="1697" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="197" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="256" controlTypeID="com.balsamiq.mockups::Image" x="2735" y="1818" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="198" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_visibility_off_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="257" controlTypeID="com.balsamiq.mockups::Image" x="2734" y="2123" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="199" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_warning_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="258" controlTypeID="com.balsamiq.mockups::Image" x="2735" y="1920" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="200" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="259" controlTypeID="com.balsamiq.mockups::TextArea" x="2721" y="1513" w="510" h="90" measuredW="200" measuredH="140" zOrder="201" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+      </controlProperties>
+    </control>
+    <control controlID="260" controlTypeID="com.balsamiq.mockups::Image" x="3177" y="1614" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="202" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_youtube_searched_for_black_24dp%25203.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="261" controlTypeID="com.balsamiq.mockups::Icon" x="2742" y="1534" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="203" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>bars%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="262" controlTypeID="com.balsamiq.mockups::TextArea" x="2738" y="1615" w="431" h="47" measuredW="200" measuredH="140" zOrder="204" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <size>32</size>
+        <text>001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="263" controlTypeID="com.balsamiq.mockups::Label" x="2790" y="1852" w="132" h="-1" measuredW="104" measuredH="25" zOrder="205" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="264" controlTypeID="com.balsamiq.mockups::Label" x="3148" y="1911" w="66" h="-1" measuredW="40" measuredH="27" zOrder="206" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>8%20hr</text>
+      </controlProperties>
+    </control>
+    <control controlID="265" controlTypeID="com.balsamiq.mockups::Label" x="2790" y="1938" w="358" h="-1" measuredW="227" measuredH="25" zOrder="207" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="266" controlTypeID="com.balsamiq.mockups::Label" x="2790" y="1911" w="100" h="-1" measuredW="91" measuredH="27" zOrder="208" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="267" controlTypeID="com.balsamiq.mockups::Icon" x="3179" y="1943" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="209" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="268" controlTypeID="com.balsamiq.mockups::Label" x="2791" y="1959" w="358" h="-1" measuredW="159" measuredH="25" zOrder="210" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="269" controlTypeID="com.balsamiq.mockups::Label" x="3158" y="1806" w="66" h="-1" measuredW="65" measuredH="27" zOrder="211" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="270" controlTypeID="com.balsamiq.mockups::Icon" x="3179" y="1834" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="212" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="271" controlTypeID="com.balsamiq.mockups::Label" x="2792" y="1718" w="145" h="-1" measuredW="126" measuredH="25" zOrder="213" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="272" controlTypeID="com.balsamiq.mockups::Label" x="2790" y="1694" w="139" h="-1" measuredW="138" measuredH="27" zOrder="214" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="273" controlTypeID="com.balsamiq.mockups::Label" x="2792" y="1740" w="132" h="-1" measuredW="104" measuredH="25" zOrder="215" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="274" controlTypeID="com.balsamiq.mockups::Label" x="3158" y="1694" w="66" h="-1" measuredW="65" measuredH="27" zOrder="216" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="275" controlTypeID="com.balsamiq.mockups::Icon" x="3181" y="1722" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="217" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="276" controlTypeID="com.balsamiq.mockups::Image" x="2735" y="2027" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="218" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="277" controlTypeID="com.balsamiq.mockups::Label" x="3148" y="2018" w="66" h="-1" measuredW="64" measuredH="27" zOrder="219" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>20%20sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="278" controlTypeID="com.balsamiq.mockups::Label" x="2790" y="2045" w="358" h="-1" measuredW="227" measuredH="25" zOrder="220" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="279" controlTypeID="com.balsamiq.mockups::Label" x="2790" y="2018" w="100" h="-1" measuredW="91" measuredH="27" zOrder="221" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="280" controlTypeID="com.balsamiq.mockups::Icon" x="3179" y="2050" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="222" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="281" controlTypeID="com.balsamiq.mockups::Label" x="2791" y="2066" w="358" h="-1" measuredW="159" measuredH="25" zOrder="223" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="282" controlTypeID="com.balsamiq.mockups::Arrow" x="2791" y="1991" w="432" h="2" measuredW="431" measuredH="1" zOrder="224" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="283" controlTypeID="com.balsamiq.mockups::Arrow" x="2791" y="2097" w="432" h="2" measuredW="431" measuredH="1" zOrder="225" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="284" controlTypeID="com.balsamiq.mockups::Label" x="3148" y="2115" w="66" h="-1" measuredW="58" measuredH="27" zOrder="226" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>14sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="285" controlTypeID="com.balsamiq.mockups::Label" x="2791" y="2142" w="358" h="-1" measuredW="227" measuredH="25" zOrder="227" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="286" controlTypeID="com.balsamiq.mockups::Label" x="2791" y="2115" w="100" h="-1" measuredW="91" measuredH="27" zOrder="228" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="287" controlTypeID="com.balsamiq.mockups::Icon" x="3180" y="2147" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="229" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="288" controlTypeID="com.balsamiq.mockups::Label" x="2792" y="2163" w="358" h="-1" measuredW="159" measuredH="25" zOrder="230" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="289" controlTypeID="com.balsamiq.mockups::Arrow" x="2792" y="2194" w="432" h="2" measuredW="431" measuredH="1" zOrder="231" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="290" controlTypeID="com.balsamiq.mockups::TextArea" x="2735" y="1614" w="484" h="797" measuredW="200" measuredH="140" zOrder="232" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <color>13421772</color>
+        <size>32</size>
+        <text>DENEGADO%0A%20</text>
+        <textColor>13369344</textColor>
+      </controlProperties>
+    </control>
+    <control controlID="291" controlTypeID="com.balsamiq.mockups::Label" x="2904" y="1687" w="145" h="-1" measuredW="126" measuredH="25" zOrder="233" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="292" controlTypeID="com.balsamiq.mockups::Icon" x="2783" y="1675" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="234" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>user%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="294" controlTypeID="com.balsamiq.mockups::Icon" x="2783" y="1745" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="235" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>credit-card-alt%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="295" controlTypeID="com.balsamiq.mockups::Label" x="2897" y="1757" w="145" h="-1" measuredW="106" measuredH="25" zOrder="236" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>CE%3A001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="296" controlTypeID="com.balsamiq.mockups::Arrow" x="2769" y="1876" w="401" h="1" measuredW="400" measuredH="0" zOrder="237" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.5,0</p1>
+        <p2>400,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="297" controlTypeID="com.balsamiq.mockups::Label" x="2769" y="1922" w="347" h="-1" measuredW="318" measuredH="35" zOrder="238" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>se%20ofrece%20cuenta%20ahorros%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="298" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3126" y="1904" w="-1" h="-1" measuredW="73" measuredH="89" zOrder="239" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>%5BX%5D%20SI%0A%5B%5D%20NO</text>
+      </controlProperties>
+    </control>
+    <control controlID="299" controlTypeID="com.balsamiq.mockups::Button" x="2778" y="2345" w="400" h="32" measuredW="104" measuredH="32" zOrder="240" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Aceptar</text>
+      </controlProperties>
+    </control>
+    <control controlID="301" controlTypeID="com.balsamiq.mockups::Image" x="3364" y="1398" w="606" h="1157" measuredW="304" measuredH="568" zOrder="241" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/cel2%25201.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="302" controlTypeID="com.balsamiq.mockups::Arrow" x="3461" y="1896" w="432" h="2" measuredW="431" measuredH="1" zOrder="242" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="303" controlTypeID="com.balsamiq.mockups::Arrow" x="3457" y="1790" w="431" h="1" measuredW="430" measuredH="0" zOrder="243" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.4999999999999997,4.152064136972478e-19</p1>
+        <p2>430,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="304" controlTypeID="com.balsamiq.mockups::Label" x="3460" y="1843" w="145" h="-1" measuredW="126" measuredH="25" zOrder="244" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="305" controlTypeID="com.balsamiq.mockups::Label" x="3458" y="1819" w="139" h="-1" measuredW="138" measuredH="27" zOrder="245" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="306" controlTypeID="com.balsamiq.mockups::Image" x="3405" y="1710" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="246" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="307" controlTypeID="com.balsamiq.mockups::Image" x="3405" y="1831" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="247" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_visibility_off_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="308" controlTypeID="com.balsamiq.mockups::Image" x="3404" y="2136" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="248" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_warning_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="309" controlTypeID="com.balsamiq.mockups::Image" x="3405" y="1933" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="249" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="310" controlTypeID="com.balsamiq.mockups::TextArea" x="3405" y="1526" w="510" h="90" measuredW="200" measuredH="140" zOrder="250" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+      </controlProperties>
+    </control>
+    <control controlID="311" controlTypeID="com.balsamiq.mockups::Image" x="3847" y="1627" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="251" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_youtube_searched_for_black_24dp%25203.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="312" controlTypeID="com.balsamiq.mockups::Icon" x="3412" y="1547" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="252" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>bars%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="313" controlTypeID="com.balsamiq.mockups::TextArea" x="3408" y="1628" w="431" h="47" measuredW="200" measuredH="140" zOrder="253" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <size>32</size>
+        <text>001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="314" controlTypeID="com.balsamiq.mockups::Label" x="3460" y="1865" w="132" h="-1" measuredW="104" measuredH="25" zOrder="254" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="315" controlTypeID="com.balsamiq.mockups::Label" x="3818" y="1924" w="66" h="-1" measuredW="40" measuredH="27" zOrder="255" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>8%20hr</text>
+      </controlProperties>
+    </control>
+    <control controlID="316" controlTypeID="com.balsamiq.mockups::Label" x="3460" y="1951" w="358" h="-1" measuredW="227" measuredH="25" zOrder="256" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="317" controlTypeID="com.balsamiq.mockups::Label" x="3460" y="1924" w="100" h="-1" measuredW="91" measuredH="27" zOrder="257" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="318" controlTypeID="com.balsamiq.mockups::Icon" x="3849" y="1956" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="258" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="319" controlTypeID="com.balsamiq.mockups::Label" x="3461" y="1972" w="358" h="-1" measuredW="159" measuredH="25" zOrder="259" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="320" controlTypeID="com.balsamiq.mockups::Label" x="3828" y="1819" w="66" h="-1" measuredW="65" measuredH="27" zOrder="260" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="321" controlTypeID="com.balsamiq.mockups::Icon" x="3849" y="1847" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="261" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="322" controlTypeID="com.balsamiq.mockups::Label" x="3462" y="1731" w="145" h="-1" measuredW="126" measuredH="25" zOrder="262" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="323" controlTypeID="com.balsamiq.mockups::Label" x="3460" y="1707" w="139" h="-1" measuredW="138" measuredH="27" zOrder="263" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="324" controlTypeID="com.balsamiq.mockups::Label" x="3462" y="1753" w="132" h="-1" measuredW="104" measuredH="25" zOrder="264" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="325" controlTypeID="com.balsamiq.mockups::Label" x="3828" y="1707" w="66" h="-1" measuredW="65" measuredH="27" zOrder="265" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="326" controlTypeID="com.balsamiq.mockups::Icon" x="3851" y="1735" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="266" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="327" controlTypeID="com.balsamiq.mockups::Image" x="3405" y="2040" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="267" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="328" controlTypeID="com.balsamiq.mockups::Label" x="3818" y="2031" w="66" h="-1" measuredW="64" measuredH="27" zOrder="268" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>20%20sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="329" controlTypeID="com.balsamiq.mockups::Label" x="3460" y="2058" w="358" h="-1" measuredW="227" measuredH="25" zOrder="269" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="330" controlTypeID="com.balsamiq.mockups::Label" x="3460" y="2031" w="100" h="-1" measuredW="91" measuredH="27" zOrder="270" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="331" controlTypeID="com.balsamiq.mockups::Icon" x="3849" y="2063" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="271" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="332" controlTypeID="com.balsamiq.mockups::Label" x="3461" y="2079" w="358" h="-1" measuredW="159" measuredH="25" zOrder="272" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="333" controlTypeID="com.balsamiq.mockups::Arrow" x="3461" y="2004" w="432" h="2" measuredW="431" measuredH="1" zOrder="273" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="334" controlTypeID="com.balsamiq.mockups::Arrow" x="3461" y="2110" w="432" h="2" measuredW="431" measuredH="1" zOrder="274" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="335" controlTypeID="com.balsamiq.mockups::Label" x="3818" y="2128" w="66" h="-1" measuredW="58" measuredH="27" zOrder="275" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>14sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="336" controlTypeID="com.balsamiq.mockups::Label" x="3461" y="2155" w="358" h="-1" measuredW="227" measuredH="25" zOrder="276" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="337" controlTypeID="com.balsamiq.mockups::Label" x="3461" y="2128" w="100" h="-1" measuredW="91" measuredH="27" zOrder="277" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="338" controlTypeID="com.balsamiq.mockups::Icon" x="3850" y="2160" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="278" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="339" controlTypeID="com.balsamiq.mockups::Label" x="3462" y="2176" w="358" h="-1" measuredW="159" measuredH="25" zOrder="279" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="340" controlTypeID="com.balsamiq.mockups::Arrow" x="3462" y="2207" w="432" h="2" measuredW="431" measuredH="1" zOrder="280" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="341" controlTypeID="com.balsamiq.mockups::TextArea" x="3405" y="1627" w="510" h="791" measuredW="200" measuredH="140" zOrder="281" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <color>13421772</color>
+        <size>32</size>
+        <text>DENEGADO%0A%20</text>
+        <textColor>13369344</textColor>
+      </controlProperties>
+    </control>
+    <control controlID="342" controlTypeID="com.balsamiq.mockups::Label" x="3574" y="1700" w="145" h="-1" measuredW="126" measuredH="25" zOrder="282" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="343" controlTypeID="com.balsamiq.mockups::Icon" x="3453" y="1688" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="283" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>user%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="344" controlTypeID="com.balsamiq.mockups::Icon" x="3453" y="1758" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="284" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>credit-card-alt%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="345" controlTypeID="com.balsamiq.mockups::Label" x="3567" y="1770" w="145" h="-1" measuredW="106" measuredH="25" zOrder="285" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>CE%3A001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="346" controlTypeID="com.balsamiq.mockups::Arrow" x="3439" y="1889" w="401" h="1" measuredW="400" measuredH="0" zOrder="286" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.5,0</p1>
+        <p2>400,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="347" controlTypeID="com.balsamiq.mockups::Label" x="3439" y="1935" w="325" h="-1" measuredW="267" measuredH="35" zOrder="287" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Desea%20cuenta%20ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="348" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3782" y="1911" w="-1" h="-1" measuredW="73" measuredH="89" zOrder="288" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>%5B%5D%20SI%0A%5Bx%5D%20NO</text>
+      </controlProperties>
+    </control>
+    <control controlID="349" controlTypeID="com.balsamiq.mockups::Button" x="3447" y="2345" w="400" h="32" measuredW="104" measuredH="32" zOrder="289" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Aceptar</text>
+      </controlProperties>
+    </control>
+    <control controlID="350" controlTypeID="com.balsamiq.mockups::Label" x="3439" y="2024" w="231" h="-1" measuredW="93" measuredH="35" zOrder="290" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Motivo%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="351" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3782" y="2027" w="-1" h="-1" measuredW="45" measuredH="136" zOrder="291" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>%5B%5D%20A%0A%5Bx%5D%20B%0A%5B%5D%20C</text>
+      </controlProperties>
+    </control>
+    <control controlID="352" controlTypeID="com.balsamiq.mockups::CallOut" x="2735" y="1415" w="123" h="74" measuredW="199" measuredH="39" zOrder="292" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>cliente.%20denegado1</text>
+      </controlProperties>
+    </control>
+    <control controlID="353" controlTypeID="com.balsamiq.mockups::CallOut" x="3391" y="1432" w="123" h="74" measuredW="199" measuredH="39" zOrder="293" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>cliente.%20denegado2</text>
+      </controlProperties>
+    </control>
+    <control controlID="354" controlTypeID="com.balsamiq.mockups::Image" x="2682" y="2604" w="606" h="1157" measuredW="304" measuredH="568" zOrder="294" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/cel2%25201.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="355" controlTypeID="com.balsamiq.mockups::Arrow" x="2794" y="3102" w="432" h="2" measuredW="431" measuredH="1" zOrder="295" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="356" controlTypeID="com.balsamiq.mockups::Arrow" x="2790" y="2996" w="431" h="1" measuredW="430" measuredH="0" zOrder="296" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.4999999999999997,4.152064136972478e-19</p1>
+        <p2>430,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="357" controlTypeID="com.balsamiq.mockups::Label" x="2793" y="3049" w="145" h="-1" measuredW="126" measuredH="25" zOrder="297" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="358" controlTypeID="com.balsamiq.mockups::Label" x="2791" y="3025" w="139" h="-1" measuredW="138" measuredH="27" zOrder="298" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="359" controlTypeID="com.balsamiq.mockups::Image" x="2738" y="2916" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="299" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="360" controlTypeID="com.balsamiq.mockups::Image" x="2738" y="3037" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="300" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_visibility_off_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="361" controlTypeID="com.balsamiq.mockups::Image" x="2737" y="3342" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="301" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_warning_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="362" controlTypeID="com.balsamiq.mockups::Image" x="2738" y="3139" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="302" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="363" controlTypeID="com.balsamiq.mockups::TextArea" x="2724" y="2732" w="510" h="90" measuredW="200" measuredH="140" zOrder="303" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+      </controlProperties>
+    </control>
+    <control controlID="364" controlTypeID="com.balsamiq.mockups::Image" x="3180" y="2833" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="304" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_youtube_searched_for_black_24dp%25203.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="365" controlTypeID="com.balsamiq.mockups::Icon" x="2745" y="2753" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="305" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>bars%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="366" controlTypeID="com.balsamiq.mockups::TextArea" x="2741" y="2834" w="431" h="47" measuredW="200" measuredH="140" zOrder="306" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <size>32</size>
+        <text>001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="367" controlTypeID="com.balsamiq.mockups::Label" x="2793" y="3071" w="132" h="-1" measuredW="104" measuredH="25" zOrder="307" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="368" controlTypeID="com.balsamiq.mockups::Label" x="3151" y="3130" w="66" h="-1" measuredW="40" measuredH="27" zOrder="308" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>8%20hr</text>
+      </controlProperties>
+    </control>
+    <control controlID="369" controlTypeID="com.balsamiq.mockups::Label" x="2793" y="3157" w="358" h="-1" measuredW="227" measuredH="25" zOrder="309" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="370" controlTypeID="com.balsamiq.mockups::Label" x="2793" y="3130" w="100" h="-1" measuredW="91" measuredH="27" zOrder="310" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="371" controlTypeID="com.balsamiq.mockups::Icon" x="3182" y="3162" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="311" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="372" controlTypeID="com.balsamiq.mockups::Label" x="2794" y="3178" w="358" h="-1" measuredW="159" measuredH="25" zOrder="312" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="373" controlTypeID="com.balsamiq.mockups::Label" x="3161" y="3025" w="66" h="-1" measuredW="65" measuredH="27" zOrder="313" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="374" controlTypeID="com.balsamiq.mockups::Icon" x="3182" y="3053" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="314" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="375" controlTypeID="com.balsamiq.mockups::Label" x="2795" y="2937" w="145" h="-1" measuredW="126" measuredH="25" zOrder="315" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="376" controlTypeID="com.balsamiq.mockups::Label" x="2793" y="2913" w="139" h="-1" measuredW="138" measuredH="27" zOrder="316" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="377" controlTypeID="com.balsamiq.mockups::Label" x="2795" y="2959" w="132" h="-1" measuredW="104" measuredH="25" zOrder="317" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="378" controlTypeID="com.balsamiq.mockups::Label" x="3161" y="2913" w="66" h="-1" measuredW="65" measuredH="27" zOrder="318" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="379" controlTypeID="com.balsamiq.mockups::Icon" x="3184" y="2941" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="319" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="380" controlTypeID="com.balsamiq.mockups::Image" x="2738" y="3246" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="320" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="381" controlTypeID="com.balsamiq.mockups::Label" x="3151" y="3237" w="66" h="-1" measuredW="64" measuredH="27" zOrder="321" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>20%20sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="382" controlTypeID="com.balsamiq.mockups::Label" x="2793" y="3264" w="358" h="-1" measuredW="227" measuredH="25" zOrder="322" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="383" controlTypeID="com.balsamiq.mockups::Label" x="2793" y="3237" w="100" h="-1" measuredW="91" measuredH="27" zOrder="323" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="384" controlTypeID="com.balsamiq.mockups::Icon" x="3182" y="3269" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="324" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="385" controlTypeID="com.balsamiq.mockups::Label" x="2794" y="3285" w="358" h="-1" measuredW="159" measuredH="25" zOrder="325" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="386" controlTypeID="com.balsamiq.mockups::Arrow" x="2794" y="3210" w="432" h="2" measuredW="431" measuredH="1" zOrder="326" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="387" controlTypeID="com.balsamiq.mockups::Arrow" x="2794" y="3316" w="432" h="2" measuredW="431" measuredH="1" zOrder="327" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="388" controlTypeID="com.balsamiq.mockups::Label" x="3151" y="3334" w="66" h="-1" measuredW="58" measuredH="27" zOrder="328" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>14sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="389" controlTypeID="com.balsamiq.mockups::Label" x="2794" y="3361" w="358" h="-1" measuredW="227" measuredH="25" zOrder="329" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="390" controlTypeID="com.balsamiq.mockups::Label" x="2794" y="3334" w="100" h="-1" measuredW="91" measuredH="27" zOrder="330" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="391" controlTypeID="com.balsamiq.mockups::Icon" x="3183" y="3366" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="331" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="392" controlTypeID="com.balsamiq.mockups::Label" x="2795" y="3382" w="358" h="-1" measuredW="159" measuredH="25" zOrder="332" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="393" controlTypeID="com.balsamiq.mockups::Arrow" x="2795" y="3413" w="432" h="2" measuredW="431" measuredH="1" zOrder="333" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="394" controlTypeID="com.balsamiq.mockups::TextArea" x="2738" y="2833" w="484" h="641" measuredW="200" measuredH="140" zOrder="334" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <color>13421772</color>
+        <size>32</size>
+        <text>NO%20ENCONTRADO</text>
+        <textColor>16750848</textColor>
+      </controlProperties>
+    </control>
+    <control controlID="395" controlTypeID="com.balsamiq.mockups::Label" x="2907" y="2906" w="145" h="-1" measuredW="126" measuredH="25" zOrder="335" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="396" controlTypeID="com.balsamiq.mockups::Icon" x="2786" y="2894" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="336" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>user%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="397" controlTypeID="com.balsamiq.mockups::Icon" x="2780" y="3230" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="337" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>phone%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="398" controlTypeID="com.balsamiq.mockups::Icon" x="2786" y="2964" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="338" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>credit-card-alt%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="399" controlTypeID="com.balsamiq.mockups::Label" x="2900" y="2976" w="145" h="-1" measuredW="106" measuredH="25" zOrder="339" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>CE%3A001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="400" controlTypeID="com.balsamiq.mockups::Arrow" x="2772" y="3095" w="401" h="1" measuredW="400" measuredH="0" zOrder="340" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.5,0</p1>
+        <p2>400,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="401" controlTypeID="com.balsamiq.mockups::Label" x="2772" y="3141" w="231" h="-1" measuredW="201" measuredH="35" zOrder="341" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Concreto%20venta%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="402" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3019" y="3117" w="-1" h="-1" measuredW="58" measuredH="67" zOrder="342" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>%5BX%5D%20SI%0A%5B%5D%20NO</text>
+      </controlProperties>
+    </control>
+    <control controlID="403" controlTypeID="com.balsamiq.mockups::Button" x="2785" y="3426" w="400" h="32" measuredW="104" measuredH="32" zOrder="343" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Aceptar</text>
+      </controlProperties>
+    </control>
+    <control controlID="404" controlTypeID="com.balsamiq.mockups::TextInput" x="2907" y="3230" w="208" h="-1" measuredW="185" measuredH="34" zOrder="344" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Ingrese%20telef%F3no</text>
+      </controlProperties>
+    </control>
+    <control controlID="405" controlTypeID="com.balsamiq.mockups::Image" x="3352" y="2617" w="606" h="1157" measuredW="304" measuredH="568" zOrder="345" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/cel2%25201.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="406" controlTypeID="com.balsamiq.mockups::Arrow" x="3464" y="3115" w="432" h="2" measuredW="431" measuredH="1" zOrder="346" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="407" controlTypeID="com.balsamiq.mockups::Arrow" x="3460" y="3009" w="431" h="1" measuredW="430" measuredH="0" zOrder="347" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.4999999999999997,4.152064136972478e-19</p1>
+        <p2>430,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="408" controlTypeID="com.balsamiq.mockups::Label" x="3463" y="3062" w="145" h="-1" measuredW="126" measuredH="25" zOrder="348" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="409" controlTypeID="com.balsamiq.mockups::Label" x="3461" y="3038" w="139" h="-1" measuredW="138" measuredH="27" zOrder="349" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="410" controlTypeID="com.balsamiq.mockups::Image" x="3408" y="2929" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="350" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="411" controlTypeID="com.balsamiq.mockups::Image" x="3408" y="3050" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="351" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_visibility_off_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="412" controlTypeID="com.balsamiq.mockups::Image" x="3407" y="3355" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="352" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_warning_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="413" controlTypeID="com.balsamiq.mockups::Image" x="3408" y="3152" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="353" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="414" controlTypeID="com.balsamiq.mockups::TextArea" x="3394" y="2745" w="510" h="90" measuredW="200" measuredH="140" zOrder="354" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+      </controlProperties>
+    </control>
+    <control controlID="415" controlTypeID="com.balsamiq.mockups::Image" x="3850" y="2846" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="355" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/ic_youtube_searched_for_black_24dp%25203.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="416" controlTypeID="com.balsamiq.mockups::Icon" x="3415" y="2766" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="356" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>bars%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="417" controlTypeID="com.balsamiq.mockups::TextArea" x="3411" y="2847" w="431" h="47" measuredW="200" measuredH="140" zOrder="357" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <size>32</size>
+        <text>001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="418" controlTypeID="com.balsamiq.mockups::Label" x="3463" y="3084" w="132" h="-1" measuredW="104" measuredH="25" zOrder="358" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="419" controlTypeID="com.balsamiq.mockups::Label" x="3821" y="3143" w="66" h="-1" measuredW="40" measuredH="27" zOrder="359" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>8%20hr</text>
+      </controlProperties>
+    </control>
+    <control controlID="420" controlTypeID="com.balsamiq.mockups::Label" x="3463" y="3170" w="358" h="-1" measuredW="227" measuredH="25" zOrder="360" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="421" controlTypeID="com.balsamiq.mockups::Label" x="3463" y="3143" w="100" h="-1" measuredW="91" measuredH="27" zOrder="361" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="422" controlTypeID="com.balsamiq.mockups::Icon" x="3852" y="3175" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="362" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="423" controlTypeID="com.balsamiq.mockups::Label" x="3464" y="3191" w="358" h="-1" measuredW="159" measuredH="25" zOrder="363" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="424" controlTypeID="com.balsamiq.mockups::Label" x="3831" y="3038" w="66" h="-1" measuredW="65" measuredH="27" zOrder="364" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="425" controlTypeID="com.balsamiq.mockups::Icon" x="3852" y="3066" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="365" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="426" controlTypeID="com.balsamiq.mockups::Label" x="3465" y="2950" w="145" h="-1" measuredW="126" measuredH="25" zOrder="366" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="427" controlTypeID="com.balsamiq.mockups::Label" x="3463" y="2926" w="139" h="-1" measuredW="138" measuredH="27" zOrder="367" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>No%20encontrado</text>
+      </controlProperties>
+    </control>
+    <control controlID="428" controlTypeID="com.balsamiq.mockups::Label" x="3465" y="2972" w="132" h="-1" measuredW="104" measuredH="25" zOrder="368" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Prod%3A%20Ahorros</text>
+      </controlProperties>
+    </control>
+    <control controlID="429" controlTypeID="com.balsamiq.mockups::Label" x="3831" y="2926" w="66" h="-1" measuredW="65" measuredH="27" zOrder="369" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>15%20min</text>
+      </controlProperties>
+    </control>
+    <control controlID="430" controlTypeID="com.balsamiq.mockups::Icon" x="3854" y="2954" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="370" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="431" controlTypeID="com.balsamiq.mockups::Image" x="3408" y="3259" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="371" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./assets/ic_verified_user_black_24dp.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="432" controlTypeID="com.balsamiq.mockups::Label" x="3821" y="3250" w="66" h="-1" measuredW="64" measuredH="27" zOrder="372" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>20%20sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="433" controlTypeID="com.balsamiq.mockups::Label" x="3463" y="3277" w="358" h="-1" measuredW="227" measuredH="25" zOrder="373" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="434" controlTypeID="com.balsamiq.mockups::Label" x="3463" y="3250" w="100" h="-1" measuredW="91" measuredH="27" zOrder="374" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="435" controlTypeID="com.balsamiq.mockups::Icon" x="3852" y="3282" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="375" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="436" controlTypeID="com.balsamiq.mockups::Label" x="3464" y="3298" w="358" h="-1" measuredW="159" measuredH="25" zOrder="376" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="437" controlTypeID="com.balsamiq.mockups::Arrow" x="3464" y="3223" w="432" h="2" measuredW="431" measuredH="1" zOrder="377" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="438" controlTypeID="com.balsamiq.mockups::Arrow" x="3464" y="3329" w="432" h="2" measuredW="431" measuredH="1" zOrder="378" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="439" controlTypeID="com.balsamiq.mockups::Label" x="3821" y="3347" w="66" h="-1" measuredW="58" measuredH="27" zOrder="379" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <color>6710886</color>
+        <size>20</size>
+        <text>14sep</text>
+      </controlProperties>
+    </control>
+    <control controlID="440" controlTypeID="com.balsamiq.mockups::Label" x="3464" y="3374" w="358" h="-1" measuredW="227" measuredH="25" zOrder="380" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+        <size>17</size>
+        <text>JOSE%20LUIS%20CERON%20-%20942408419</text>
+      </controlProperties>
+    </control>
+    <control controlID="441" controlTypeID="com.balsamiq.mockups::Label" x="3464" y="3347" w="100" h="-1" measuredW="91" measuredH="27" zOrder="381" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Aprobado</text>
+      </controlProperties>
+    </control>
+    <control controlID="442" controlTypeID="com.balsamiq.mockups::Icon" x="3853" y="3379" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="382" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>chevron-circle-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="443" controlTypeID="com.balsamiq.mockups::Label" x="3465" y="3395" w="358" h="-1" measuredW="159" measuredH="25" zOrder="383" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>17</size>
+        <text>Venta%3A%20NO.%20Motivo%3A%20A</text>
+      </controlProperties>
+    </control>
+    <control controlID="444" controlTypeID="com.balsamiq.mockups::Arrow" x="3465" y="3426" w="432" h="2" measuredW="431" measuredH="1" zOrder="384" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,1</p0>
+        <p1>0.4999999999999998,1.5300066445453864e-19</p1>
+        <p2>431,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="445" controlTypeID="com.balsamiq.mockups::TextArea" x="3416" y="2846" w="476" h="628" measuredW="200" measuredH="140" zOrder="385" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <color>13421772</color>
+        <size>32</size>
+        <text>NO%20ENCONTRADO</text>
+        <textColor>16750848</textColor>
+      </controlProperties>
+    </control>
+    <control controlID="446" controlTypeID="com.balsamiq.mockups::Label" x="3577" y="2919" w="145" h="-1" measuredW="126" measuredH="25" zOrder="386" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>ISABEL%20SANCHEZ</text>
+      </controlProperties>
+    </control>
+    <control controlID="447" controlTypeID="com.balsamiq.mockups::Icon" x="3456" y="2907" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="387" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>user%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="448" controlTypeID="com.balsamiq.mockups::Icon" x="3456" y="2977" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="388" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>credit-card-alt%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="449" controlTypeID="com.balsamiq.mockups::Label" x="3570" y="2989" w="145" h="-1" measuredW="106" measuredH="25" zOrder="389" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>17</size>
+        <text>CE%3A001342032</text>
+      </controlProperties>
+    </control>
+    <control controlID="450" controlTypeID="com.balsamiq.mockups::Arrow" x="3442" y="3108" w="401" h="1" measuredW="400" measuredH="0" zOrder="390" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.5,0</p1>
+        <p2>400,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="451" controlTypeID="com.balsamiq.mockups::Label" x="3442" y="3154" w="231" h="-1" measuredW="201" measuredH="35" zOrder="391" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Concreto%20venta%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="452" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3689" y="3130" w="-1" h="-1" measuredW="58" measuredH="67" zOrder="392" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>%5B%5D%20SI%0A%5Bx%5D%20NO</text>
+      </controlProperties>
+    </control>
+    <control controlID="453" controlTypeID="com.balsamiq.mockups::Button" x="3455" y="3426" w="400" h="32" measuredW="104" measuredH="32" zOrder="393" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Aceptar</text>
+      </controlProperties>
+    </control>
+    <control controlID="454" controlTypeID="com.balsamiq.mockups::Label" x="3442" y="3243" w="231" h="-1" measuredW="201" measuredH="35" zOrder="394" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Concreto%20venta%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="455" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3689" y="3248" w="-1" h="-1" measuredW="37" measuredH="103" zOrder="395" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>%5B%5D%20A%0A%5Bx%5D%20B%0A%5B%5D%20C</text>
+      </controlProperties>
+    </control>
+    <control controlID="456" controlTypeID="com.balsamiq.mockups::CallOut" x="2738" y="2634" w="123" h="74" measuredW="199" measuredH="39" zOrder="396" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>cliente.%20denegado1</text>
+      </controlProperties>
+    </control>
+    <control controlID="457" controlTypeID="com.balsamiq.mockups::CallOut" x="3394" y="2651" w="123" h="74" measuredW="199" measuredH="39" zOrder="397" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>cliente.%20denegado2</text>
+      </controlProperties>
+    </control>
+    <control controlID="458" controlTypeID="com.balsamiq.mockups::Label" x="2770" y="2027" w="329" h="-1" measuredW="314" measuredH="35" zOrder="398" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Cliente%20acepta%20producto%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="459" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="3126" y="2024" w="-1" h="-1" measuredW="73" measuredH="89" zOrder="399" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>%5BX%5D%20SI%0A%5B%5D%20NO</text>
+      </controlProperties>
+    </control>
+    <control controlID="460" controlTypeID="com.balsamiq.mockups::Image" x="198" y="171" w="606" h="1157" measuredW="304" measuredH="568" zOrder="400" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/cel2%25201.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="461" controlTypeID="com.balsamiq.mockups::Image" x="244" y="297" w="501" h="906" measuredW="271" measuredH="481" zOrder="401" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/2016_09_22%2520at%252012_01_39.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="462" controlTypeID="com.balsamiq.mockups::Label" x="267" y="631" w="173" h="-1" measuredW="159" measuredH="25" zOrder="402" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <state>disabled</state>
+        <text>Bandeja%20de%20clientes</text>
+      </controlProperties>
+    </control>
+    <control controlID="463" controlTypeID="com.balsamiq.mockups::Label" x="267" y="694" w="195" h="-1" measuredW="175" measuredH="25" zOrder="403" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <state>disabled</state>
+        <text>Resumen%20de%20consultas</text>
+      </controlProperties>
+    </control>
+    <control controlID="464" controlTypeID="com.balsamiq.mockups::Arrow" x="251" y="665" w="408" h="1" measuredW="407" measuredH="0" zOrder="404" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>3700253</color>
+        <curvature>0</curvature>
+        <direction>top</direction>
+        <labelPosition>5</labelPosition>
+        <leftArrow>false</leftArrow>
+        <p0>0,0</p0>
+        <p1>0.4999999999999998,4.152064136972478e-19</p1>
+        <p2>407,0</p2>
+        <rightArrow>false</rightArrow>
+        <shape>bezier</shape>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="466" controlTypeID="com.balsamiq.mockups::Label" x="267" y="745" w="173" h="-1" measuredW="124" measuredH="25" zOrder="405" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <state>disabled</state>
+        <text>Historial%20ventas</text>
+      </controlProperties>
+    </control>
+    <control controlID="467" controlTypeID="com.balsamiq.mockups::Label" x="267" y="787" w="173" h="-1" measuredW="163" measuredH="25" zOrder="406" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <state>up</state>
+        <text>Registro%20de%20llamadas</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
