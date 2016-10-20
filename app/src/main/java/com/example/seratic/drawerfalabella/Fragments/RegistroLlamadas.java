@@ -10,9 +10,9 @@ import android.widget.TextView;
 
 
 import com.example.seratic.drawerfalabella.R;
-import com.example.seratic.drawerfalabella.MainActivity;
+import com.example.seratic.drawerfalabella.IndexBusq;
 
-public class StarredFragment extends Fragment {
+public class RegistroLlamadas extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class StarredFragment extends Fragment {
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.fragment_starred, container, false);
 
-        ((MainActivity) getActivity()).getSupportActionBar().setTitle("");
+        ((IndexBusq) getActivity()).getSupportActionBar().setTitle("");
 
         Button buttonChangeText = (Button) view.findViewById(R.id.buttonFragmentStarred);
 

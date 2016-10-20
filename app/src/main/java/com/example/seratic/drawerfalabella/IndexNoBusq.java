@@ -1,4 +1,5 @@
 package com.example.seratic.drawerfalabella;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -12,12 +13,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.example.seratic.drawerfalabella.Fragments.BandejaClientes;
-import com.example.seratic.drawerfalabella.Fragments.StarredFragment;
+import com.example.seratic.drawerfalabella.Fragments.RegistroLlamadas;
+import com.example.seratic.drawerfalabella.Fragments.ResumenConsultas;
 
-public class MainActivity extends AppCompatActivity {
+public class IndexNoBusq extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
     Toolbar toolbar;
@@ -25,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -44,17 +48,41 @@ public class MainActivity extends AppCompatActivity {
         }
 
         setupNavigationDrawerContent(navigationView);
-
-        //First start (Inbox Fragment)
         setFragment(0);
 
+    }
+
+    private void comprobar(String dato) {
+        switch (dato){
+            case "aa":
+                Intent i = new Intent(getApplicationContext(), Splash.class);
+                startActivity(i);
+                overridePendingTransition(R.anim.zoom_forward_in, R.anim.zoom_forward_out);
+                finish();
+                finishActivity(1);
+                break;
+            case "dd":
+                Toast.makeText(getApplicationContext(),"denegado",Toast.LENGTH_LONG).show();
+                /*Intent d = new Intent(getApplicationContext(), Denegado1.class);
+                startActivity(d);
+                overridePendingTransition(R.anim.zoom_forward_in, R.anim.zoom_forward_out);
+                finish();*/
+                break;
+            default:
+                Toast.makeText(getApplicationContext(),"no encontrado",Toast.LENGTH_LONG).show();
+                /*Intent n = new Intent(getApplicationContext(), NoEncontrado1.class);
+                startActivity(n);
+                overridePendingTransition(R.anim.zoom_forward_in, R.anim.zoom_forward_out);
+                finish();*/
+                break;
+        }
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
+
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
@@ -80,9 +108,9 @@ public class MainActivity extends AppCompatActivity {
                                 return true;
                             case R.id.item_navigation_drawer_settings:
                                 menuItem.setChecked(true);
-                                Toast.makeText(MainActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(IndexNoBusq.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 drawerLayout.closeDrawer(GravityCompat.START);
-                                Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+                                Intent intent = new Intent(IndexNoBusq.this, SettingsActivity.class);
                                 startActivity(intent);
                                 return true;
                             case R.id.item_navigation_drawer_help_and_feedback:
@@ -110,12 +138,20 @@ public class MainActivity extends AppCompatActivity {
             case 1:
                 fragmentManager = getSupportFragmentManager();
                 fragmentTransaction = fragmentManager.beginTransaction();
-                StarredFragment starredFragment = new StarredFragment();
-                fragmentTransaction.replace(R.id.fragment, starredFragment);
+                RegistroLlamadas registroLlamadas = new RegistroLlamadas();
+                fragmentTransaction.replace(R.id.fragment, registroLlamadas);
+                fragmentTransaction.commit();
+                break;
+            case 2:
+                fragmentManager = getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                ResumenConsultas resumen_consultas = new ResumenConsultas();
+                fragmentTransaction.replace(R.id.fragment, resumen_consultas);
                 fragmentTransaction.commit();
                 break;
         }
     }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.navigation_drawer_layout);

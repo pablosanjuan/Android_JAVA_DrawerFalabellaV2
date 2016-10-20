@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_300"
+    android:id="@+id/content_principal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:cardCornerRadius="11dp"
+        app:cardElevation="14dp"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true">
+        <RelativeLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/md_white_1000"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/tvEstado_1p_2r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="24sp"
+                android:text="APROBADO"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/md_green_300"/>
+            <ImageView
+                android:id="@+id/ivUsuario"
+                android:layout_marginLeft="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/tvEstado_1p_2r"
+                android:background="@drawable/ic_person_black_24dp"/>
+            <TextView
+                android:id="@+id/tvNombre_1p_2r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="JOSE LUIS CERÓN"
+                android:textSize="14sp"
+                android:textColor="@color/md_black_1000"
+                android:layout_alignTop="@+id/ivUsuario"
+                android:layout_alignBottom="@+id/ivUsuario"
+                android:gravity="center"
+                android:layout_below="@+id/tvEstado" />
+            <ImageView
+                android:id="@+id/ivDocumento"
+                android:layout_below="@+id/ivUsuario"
+                android:layout_marginLeft="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_credit_card_black_24dp"/>
+            <TextView
+                android:id="@+id/tvDocumento_1p_2r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="001342032"
+                android:textColor="@color/md_black_1000"
+                android:layout_alignTop="@+id/ivDocumento"
+                android:layout_alignBottom="@+id/ivDocumento"
+                android:layout_alignLeft="@+id/tvNombre"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_below="@+id/tvEstado" />
+
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/linea"
+                android:layout_below="@+id/ivDocumento"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/md_grey_300" />
+
+            <TextView
+                android:id="@+id/preg_una_preg_2r"
+                android:layout_below="@+id/linea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ivDocumento"
+                android:text="Concretó Venta?"/>
+
+            <RadioGroup
+                android:layout_marginBottom="10dp"
+                android:id="@+id/rgroup"
+                android:layout_below="@+id/linea"
+                android:layout_toRightOf="@+id/preg_una_preg_2r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="Si"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_si_1p_2r" />
+                <RadioButton
+                    android:text="No"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_no_1p_2r" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/aceptar_una_preg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_green_300"
+                android:textColor="@color/md_white_1000"
+                android:text="Aceptar"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
