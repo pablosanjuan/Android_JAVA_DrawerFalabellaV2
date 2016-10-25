@@ -144,6 +144,14 @@
                 android:layout_below="@+id/rgroup"
                 android:layout_toRightOf="@id/txt_num_llamdas" />
 
+            <TextView
+                android:gravity="center"
+                android:layout_above="@+id/aceptar_1p_telfono_canto"
+                android:id="@+id/numero_preg"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 de 2"/>
             <Button
                 android:id="@+id/aceptar_1p_telfono_canto"
                 android:layout_width="match_parent"

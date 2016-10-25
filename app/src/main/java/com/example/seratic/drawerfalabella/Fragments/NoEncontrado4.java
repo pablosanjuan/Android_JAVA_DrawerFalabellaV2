@@ -24,12 +24,14 @@ public class NoEncontrado4 extends Fragment implements View.OnClickListener {
     private EditText edt_descripcion;
     private SharedPreferences prefs;
     private ImageButton atras;
+    TextView numero_preg;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.solo_descripcion, container, false);
 
+        numero_preg = (TextView) view.findViewById(R.id.numero_preg);
         aceptar = (Button) view.findViewById(R.id.aceptar_solo_descripcion);
         aceptar.setOnClickListener(this);
         nombre = (TextView) view.findViewById(R.id.tvNombre_descripcion);
@@ -45,6 +47,8 @@ public class NoEncontrado4 extends Fragment implements View.OnClickListener {
         estado.setTextColor(Color.parseColor("#2196F3"));
         atras = (ImageButton) view.findViewById(R.id.btn_atras);
         atras.setOnClickListener(this);
+        numero_preg.setText("3 de 3");
+        aceptar.setText("Finalizar");
         return view;
     }
 

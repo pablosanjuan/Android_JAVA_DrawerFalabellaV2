@@ -109,6 +109,15 @@
                 android:layout_below="@+id/linea"
                 android:layout_toRightOf="@id/ivPhone" />
 
+            <TextView
+                android:gravity="center"
+                android:layout_above="@+id/aceptar_solo_telefono"
+                android:id="@+id/numero_preg"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="--"/>
+
             <Button
                 android:id="@+id/aceptar_solo_telefono"
                 android:layout_width="match_parent"

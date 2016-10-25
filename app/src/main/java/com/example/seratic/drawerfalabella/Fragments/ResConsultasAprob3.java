@@ -55,14 +55,21 @@ public class ResConsultasAprob3 extends Fragment implements View.OnClickListener
         prefs = getActivity().getSharedPreferences("aprobado", getContext().MODE_PRIVATE);
         num_llamds.setText("("+prefs.getInt("num_llamdas", 0)+")");
         String tel = prefs.getString("telefono", "");
-        tlefono.setText(tel);
         atras = (ImageButton) view.findViewById(R.id.btn_atras);
         atras.setOnClickListener(this);
+        telefono_btn.setEnabled(false);
+        telefono_btn.setBackgroundColor(Color.parseColor("#FFCDD2"));
 
         int conc = prefs.getInt("concreto", 0);
         if (conc==1){
+            telefono_btn.setEnabled(true);
+            telefono_btn.setBackgroundColor(Color.parseColor("#EEEEEE"));
+            tlefono.setText(tel);
             si.setChecked(true);
         }else if(conc==2){
+            telefono_btn.setEnabled(false);
+            telefono_btn.setBackgroundColor(Color.parseColor("#FFCDD2"));
+            tlefono.setText("No Telefono");
             no.setChecked(true);
         }else{
             si.setChecked(false);
@@ -92,16 +99,23 @@ public class ResConsultasAprob3 extends Fragment implements View.OnClickListener
                 break;
             case R.id.ivPhone_canto:
                 int num = (prefs.getInt("num_llamdas", 0))+1 ;
-
                 SharedPreferences preferencias=getActivity().getSharedPreferences("aprobado", getContext().MODE_PRIVATE);
                 SharedPreferences.Editor editor=preferencias.edit();
                 editor.putInt("num_llamdas", num);
                 editor.commit();
 
-                int a1 = 21323;
-                Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel:" + a1));
-                startActivity(intent);
+                prefs = getActivity().getSharedPreferences("aprobado", getContext().MODE_PRIVATE);
+
+                num_llamds.setText("("+prefs.getInt("num_llamdas", 0)+")");
+
+                String tel = prefs.getString("telefono", "");
+                String posted_by = tel;
+
+                String uri = "tel:" + posted_by.trim() ;
+                Intent intent = new Intent(Intent.ACTION_DIAL );
+                intent.setData(Uri.parse(uri));
+                getActivity().startActivity(intent);
+
                 break;
         }
     }

@@ -27,12 +27,14 @@ public class NoEncontrado2 extends Fragment implements View.OnClickListener {
     EditText telefono;
     private SharedPreferences prefs;
     private ImageButton atras;
+    TextView numero_preg;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.una_preg_telefono, container, false);
 
+        numero_preg = (TextView) view.findViewById(R.id.numero_preg);
         aceptar = (Button) view.findViewById(R.id.aceptar_1p_telfono);
         si = (RadioButton) view.findViewById(R.id.rb_si_1p_telefono);
         no = (RadioButton) view.findViewById(R.id.rb_no_1p_telefono);
@@ -54,6 +56,8 @@ public class NoEncontrado2 extends Fragment implements View.OnClickListener {
         aceptar.setOnClickListener(this);
         atras = (ImageButton) view.findViewById(R.id.btn_atras);
         atras.setOnClickListener(this);
+        numero_preg.setText("2 de 2");
+        aceptar.setText("Finalizar");
         return view;
     }
 
@@ -96,6 +100,14 @@ public class NoEncontrado2 extends Fragment implements View.OnClickListener {
             }else {
                     Toast.makeText(getContext(),"Debe seleccionar",Toast.LENGTH_LONG).show();
                 }
+                break;
+            case R.id.rb_si_1p_telefono:
+                numero_preg.setText("1 de 2");
+                aceptar.setText("Siguiente");
+                break;
+            case R.id.rb_no_1p_telefono:
+                numero_preg.setText("1 de 2");
+                aceptar.setText("Siguiente");
                 break;
         }
     }

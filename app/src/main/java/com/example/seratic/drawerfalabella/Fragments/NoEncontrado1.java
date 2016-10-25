@@ -27,16 +27,20 @@ public class NoEncontrado1 extends Fragment implements View.OnClickListener {
     private SharedPreferences prefs;
     EditText edt_nombre;
     private ImageButton atras;
+    TextView numero_preg;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.edt_una_preg_2rtas, container, false);
 
+        numero_preg = (TextView) view.findViewById(R.id.numero_preg);
         aceptar = (Button) view.findViewById(R.id.aceptar_una_preg);
         edt_nombre = (EditText) view.findViewById(R.id.edtNombre_1p_2r);
         si = (RadioButton) view.findViewById(R.id.rb_si_1p_2r);
         no = (RadioButton) view.findViewById(R.id.rb_no_1p_2r);
+        si.setOnClickListener(this);
+        no.setOnClickListener(this);
         pregunta = (TextView) view.findViewById(R.id.preg_una_preg_2r);
         nombre = (TextView) view.findViewById(R.id.tvNombre_1p_2r);
         doc = (TextView) view.findViewById(R.id.tvDocumento_1p_2r);
@@ -49,6 +53,7 @@ public class NoEncontrado1 extends Fragment implements View.OnClickListener {
         aceptar.setOnClickListener(this);
         atras = (ImageButton) view.findViewById(R.id.btn_atras);
         atras.setOnClickListener(this);
+        numero_preg.setText("1 de 2");
         return view;
     }
 
@@ -92,6 +97,14 @@ public class NoEncontrado1 extends Fragment implements View.OnClickListener {
             }else {
                     Toast.makeText(getContext(),"Debe seleccionar",Toast.LENGTH_LONG).show();
                 }
+                break;
+            case R.id.rb_si_1p_2r:
+                numero_preg.setText("1 de 2");
+                aceptar.setText("Siguiente");
+                break;
+            case R.id.rb_no_1p_2r:
+                numero_preg.setText("1 de 2");
+                aceptar.setText("Siguiente");
                 break;
         }
 

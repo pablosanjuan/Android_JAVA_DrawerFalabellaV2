@@ -105,6 +105,14 @@
                 android:textSize="14sp"
                 android:inputType="text|textMultiLine"
                 android:layout_below="@+id/ivDescripcion" />
+            <TextView
+                android:gravity="center"
+                android:layout_above="@+id/aceptar_solo_descripcion"
+                android:id="@+id/numero_preg"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="--"/>
 
             <Button
                 android:id="@+id/aceptar_solo_descripcion"

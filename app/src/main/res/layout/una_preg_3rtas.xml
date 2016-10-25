@@ -120,6 +120,14 @@
                     android:id="@+id/rb_otro_1p_3r" />
             </RadioGroup>
 
+            <TextView
+                android:gravity="center"
+                android:layout_above="@+id/aceptar_una_preg_3rtas"
+                android:id="@+id/numero_preg"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="--"/>
             <Button
                 android:id="@+id/aceptar_una_preg_3rtas"
                 android:layout_width="match_parent"

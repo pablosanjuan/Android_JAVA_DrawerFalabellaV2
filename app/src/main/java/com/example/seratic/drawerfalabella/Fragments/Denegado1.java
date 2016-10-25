@@ -23,6 +23,7 @@ public class Denegado1 extends Fragment implements View.OnClickListener {
     RadioButton si,no;
     TextView pregunta,nombre,doc,estado;
     private ImageButton atras;
+    TextView numero_preg;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -44,6 +45,10 @@ public class Denegado1 extends Fragment implements View.OnClickListener {
         aceptar.setOnClickListener(this);
         atras = (ImageButton) view.findViewById(R.id.btn_atras);
         atras.setOnClickListener(this);
+        si.setOnClickListener(this);
+        no.setOnClickListener(this);
+        numero_preg = (TextView) view.findViewById(R.id.numero_preg);
+        numero_preg.setText("1 de 2");
         return view;
     }
 
@@ -75,6 +80,14 @@ public class Denegado1 extends Fragment implements View.OnClickListener {
             }else {
                     Toast.makeText(getContext(),"Debe seleccionar",Toast.LENGTH_LONG).show();
                 }
+                break;
+            case R.id.rb_si_1p_2r:
+                numero_preg.setText("1 de 2");
+                aceptar.setText("Siguiente");
+                break;
+            case R.id.rb_no_1p_2r:
+                numero_preg.setText("1 de 2");
+                aceptar.setText("Siguiente");
                 break;
         }
     }

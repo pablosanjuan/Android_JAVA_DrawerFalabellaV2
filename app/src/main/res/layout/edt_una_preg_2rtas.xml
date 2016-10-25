@@ -112,7 +112,14 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/rb_no_1p_2r" />
             </RadioGroup>
-
+            <TextView
+                android:gravity="center"
+                android:layout_above="@+id/aceptar_una_preg"
+                android:id="@+id/numero_preg"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="--"/>
             <Button
                 android:id="@+id/aceptar_una_preg"
                 android:layout_width="match_parent"
