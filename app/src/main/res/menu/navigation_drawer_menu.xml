@@ -4,18 +4,22 @@
     <group android:checkableBehavior="single">
         <item
             android:checked="true"
-            android:id="@+id/item_navigation_drawer_inbox"
+            android:id="@+id/item_navigation_drawer_search"
             android:icon="@drawable/ic_youtube_searched_for_black_24dp"
             android:title="Bandeja de Clientes" />
     </group>
     <group android:checkableBehavior="single">
             <item
-                android:id="@+id/item_navigation_drawer_settings"
+                android:id="@+id/item_navigation_drawer_resumen"
                 android:icon="@drawable/ic_inbox_black_24dp"
                 android:title="Resumen de Consultas" />
-            <item
-                android:id="@+id/item_navigation_drawer_help_and_feedback"
-                android:icon="@drawable/ic_phone_black_24dp"
-                android:title="Registro de Llamadas" />
+        <item
+            android:id="@+id/item_navigation_drawer_registro"
+            android:icon="@drawable/ic_phone_black_24dp"
+            android:title="Registro de Llamadas" />
+        <item
+            android:id="@+id/item_navigation_drawer_setear"
+            android:icon="@drawable/ic_action_content_report"
+            android:title="Setear" />
     </group>
 </menu>

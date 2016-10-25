@@ -1,13 +1,16 @@
 package com.example.seratic.drawerfalabella;
 
-import android.content.Intent;
+import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -20,22 +23,24 @@ import com.example.seratic.drawerfalabella.Fragments.BandejaClientes;
 import com.example.seratic.drawerfalabella.Fragments.RegistroLlamadas;
 import com.example.seratic.drawerfalabella.Fragments.ResumenConsultas;
 
-public class IndexNoBusq extends AppCompatActivity {
+public class Index extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
     Toolbar toolbar;
     ActionBar actionBar;
+    private boolean canExitApp = false;
+    private SharedPreferences prefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         actionBar = getSupportActionBar();
         actionBar.setHomeAsUpIndicator(R.drawable.ic_menu_white_24dp);
         actionBar.setDisplayHomeAsUpEnabled(true);
@@ -46,41 +51,16 @@ public class IndexNoBusq extends AppCompatActivity {
         if (navigationView != null) {
             setupNavigationDrawerContent(navigationView);
         }
-
         setupNavigationDrawerContent(navigationView);
         setFragment(0);
-
     }
 
-    private void comprobar(String dato) {
-        switch (dato){
-            case "aa":
-                Intent i = new Intent(getApplicationContext(), Splash.class);
-                startActivity(i);
-                overridePendingTransition(R.anim.zoom_forward_in, R.anim.zoom_forward_out);
-                finish();
-                finishActivity(1);
-                break;
-            case "dd":
-                Toast.makeText(getApplicationContext(),"denegado",Toast.LENGTH_LONG).show();
-                /*Intent d = new Intent(getApplicationContext(), Denegado1.class);
-                startActivity(d);
-                overridePendingTransition(R.anim.zoom_forward_in, R.anim.zoom_forward_out);
-                finish();*/
-                break;
-            default:
-                Toast.makeText(getApplicationContext(),"no encontrado",Toast.LENGTH_LONG).show();
-                /*Intent n = new Intent(getApplicationContext(), NoEncontrado1.class);
-                startActivity(n);
-                overridePendingTransition(R.anim.zoom_forward_in, R.anim.zoom_forward_out);
-                finish();*/
-                break;
-        }
-    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
 
         return super.onCreateOptionsMenu(menu);
     }
@@ -101,27 +81,44 @@ public class IndexNoBusq extends AppCompatActivity {
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
                         switch (menuItem.getItemId()) {
-                            case R.id.item_navigation_drawer_inbox:
+                            case R.id.item_navigation_drawer_search:
                                 menuItem.setChecked(true);
                                 setFragment(0);
                                 drawerLayout.closeDrawer(GravityCompat.START);
                                 return true;
-                            case R.id.item_navigation_drawer_settings:
-                                menuItem.setChecked(true);
-                                Toast.makeText(IndexNoBusq.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
-                                drawerLayout.closeDrawer(GravityCompat.START);
-                                Intent intent = new Intent(IndexNoBusq.this, SettingsActivity.class);
-                                startActivity(intent);
-                                return true;
-                            case R.id.item_navigation_drawer_help_and_feedback:
+                            case R.id.item_navigation_drawer_resumen:
                                 menuItem.setChecked(true);
                                 setFragment(1);
                                 drawerLayout.closeDrawer(GravityCompat.START);
                                 return true;
+                            case R.id.item_navigation_drawer_registro:
+                                menuItem.setChecked(true);
+                                setFragment(2);
+                                drawerLayout.closeDrawer(GravityCompat.START);
+                                return true;
+                            case R.id.item_navigation_drawer_setear:
+                                new AlertDialog.Builder(Index.this)
+                                        .setTitle("Setear")
+                                        .setMessage("Borrar todas las variables")
+                                        .setCancelable(false)
+                                        .setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                                            @Override
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                setear();
+                                            }
+                                        }).create().show();
+
                         }
                         return true;
                     }
                 });
+    }
+
+    private void setear() {
+        SharedPreferences preferencias=getSharedPreferences("aprobado", MODE_PRIVATE);
+        SharedPreferences.Editor editor=preferencias.edit();
+        editor.putInt("num_llamdas", 0);
+        editor.commit();
     }
 
     public void setFragment(int position) {
@@ -138,15 +135,15 @@ public class IndexNoBusq extends AppCompatActivity {
             case 1:
                 fragmentManager = getSupportFragmentManager();
                 fragmentTransaction = fragmentManager.beginTransaction();
-                RegistroLlamadas registroLlamadas = new RegistroLlamadas();
-                fragmentTransaction.replace(R.id.fragment, registroLlamadas);
+                ResumenConsultas resumen_consultas = new ResumenConsultas();
+                fragmentTransaction.replace(R.id.fragment, resumen_consultas);
                 fragmentTransaction.commit();
                 break;
             case 2:
                 fragmentManager = getSupportFragmentManager();
                 fragmentTransaction = fragmentManager.beginTransaction();
-                ResumenConsultas resumen_consultas = new ResumenConsultas();
-                fragmentTransaction.replace(R.id.fragment, resumen_consultas);
+                RegistroLlamadas registroLlamadas = new RegistroLlamadas();
+                fragmentTransaction.replace(R.id.fragment, registroLlamadas);
                 fragmentTransaction.commit();
                 break;
         }
@@ -158,7 +155,23 @@ public class IndexNoBusq extends AppCompatActivity {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
+            cerrar();
+        }
+    }
+
+    private void cerrar() {
+        if (!canExitApp) {
+            canExitApp = true;
+            Toast.makeText(this, "Presione dos veces para salir", Toast.LENGTH_SHORT).show();
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    canExitApp = false;
+                }
+            }, 2000);
+        } else {
             super.onBackPressed();
         }
     }
+
 }

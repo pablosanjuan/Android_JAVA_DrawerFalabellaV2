@@ -42,10 +42,6 @@ public class SettingsActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.search_btn) {
-            return true;
-        }
 
         return super.onOptionsItemSelected(item);
     }

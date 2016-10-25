@@ -1,6 +1,6 @@
 package com.example.seratic.drawerfalabella.Fragments;
 
-import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -9,36 +9,36 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
+import android.widget.TextView;
 
 import com.example.seratic.drawerfalabella.R;
 
 
-public class Aprobado2 extends Fragment implements View.OnClickListener {
+public class Denegado4 extends Fragment implements View.OnClickListener {
 
     Button aceptar;
-    EditText telefono;
+    TextView nombre,estado,doc;
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
-        final View view = inflater.inflate(R.layout.solo_telefono, container, false);
+        final View view = inflater.inflate(R.layout.solo_descripcion, container, false);
 
-        telefono = (EditText) view.findViewById(R.id.edt_s_telefono);
-        aceptar = (Button) view.findViewById(R.id.aceptar_solo_telefono);
+        aceptar = (Button) view.findViewById(R.id.aceptar_solo_descripcion);
         aceptar.setOnClickListener(this);
+        nombre = (TextView) view.findViewById(R.id.tvNombre_descripcion);
+        doc = (TextView) view.findViewById(R.id.tvDocumento_descripcion);
+        estado = (TextView) view.findViewById(R.id.tvEstado_descripcion);
+        nombre.setText("Pablo Sanjuan");
+        doc.setText("8234723");
+        estado.setText("DENEGADO");
+        estado.setTextColor(Color.parseColor("#FF5722"));
         return view;
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.aceptar_solo_telefono:
-
-                SharedPreferences preferencias=getActivity().getSharedPreferences("aprobado", getContext().MODE_PRIVATE);
-                SharedPreferences.Editor editor=preferencias.edit();
-                editor.putString("telefono", telefono.getText().toString());
-                editor.commit();
-
+            case R.id.aceptar_solo_descripcion:
                 FragmentManager fragmentManager;
                 FragmentTransaction fragmentTransaction;
                 fragmentManager = getActivity().getSupportFragmentManager();

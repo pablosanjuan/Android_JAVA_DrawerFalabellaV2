@@ -116,7 +116,7 @@
                 android:layout_height="30dp"
                 android:background="@drawable/ic_phone_black_24dp"/>
             <EditText
-                android:id="@+id/tvPhone"
+                android:id="@+id/tvPhone_1p_telefono"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="Ingrese Teléfono"

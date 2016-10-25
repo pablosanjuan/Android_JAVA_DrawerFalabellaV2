@@ -23,7 +23,7 @@
             android:background="@color/md_white_1000"
             android:layout_gravity="center">
             <TextView
-                android:id="@+id/tvEstado"
+                android:id="@+id/tvEstado_1p_3r"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -37,10 +37,10 @@
                 android:layout_marginLeft="20dp"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_below="@+id/tvEstado"
+                android:layout_below="@+id/tvEstado_1p_3r"
                 android:background="@drawable/ic_person_black_24dp"/>
             <TextView
-                android:id="@+id/tvNombre"
+                android:id="@+id/tvNombre_1p_3r"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -50,7 +50,7 @@
                 android:layout_alignTop="@+id/ivUsuario"
                 android:layout_alignBottom="@+id/ivUsuario"
                 android:gravity="center"
-                android:layout_below="@+id/tvEstado" />
+                android:layout_below="@+id/tvEstado_1p_3r" />
             <ImageView
                 android:id="@+id/ivDocumento"
                 android:layout_below="@+id/ivUsuario"
@@ -59,7 +59,7 @@
                 android:layout_height="30dp"
                 android:background="@drawable/ic_credit_card_black_24dp"/>
             <TextView
-                android:id="@+id/tvDocumento"
+                android:id="@+id/tvDocumento_1p_3r"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -82,7 +82,7 @@
                 android:background="@color/md_grey_300" />
 
             <TextView
-                android:id="@+id/preg_una_preg"
+                android:id="@+id/preg_una_preg_3r"
                 android:layout_below="@+id/linea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
                 android:layout_marginBottom="10dp"
                 android:id="@+id/rgroup"
                 android:layout_below="@+id/linea"
-                android:layout_toRightOf="@+id/preg_una_preg"
+                android:layout_toRightOf="@+id/preg_una_preg_3r"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <RadioButton

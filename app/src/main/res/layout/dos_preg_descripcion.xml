@@ -23,24 +23,23 @@
             android:background="@color/md_white_1000"
             android:layout_gravity="center">
             <TextView
-                android:id="@+id/tvEstado"
+                android:id="@+id/tvEstado_1p_telefono_canto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:textSize="24sp"
                 android:text="APROBADO"
                 android:textStyle="bold"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="5dp"
                 android:textColor="@color/md_green_300"/>
             <ImageView
                 android:id="@+id/ivUsuario"
-                android:layout_marginLeft="20dp"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_below="@+id/tvEstado"
+                android:layout_below="@+id/tvEstado_1p_telefono_canto"
                 android:background="@drawable/ic_person_black_24dp"/>
             <TextView
-                android:id="@+id/tvNombre"
+                android:id="@+id/tvNombre_1p_tlelfono_canto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -50,7 +49,7 @@
                 android:layout_alignTop="@+id/ivUsuario"
                 android:layout_alignBottom="@+id/ivUsuario"
                 android:gravity="center"
-                android:layout_below="@+id/tvEstado" />
+                android:layout_below="@+id/tvEstado_1p_telefono" />
             <ImageView
                 android:id="@+id/ivDocumento"
                 android:layout_below="@+id/ivUsuario"
@@ -59,7 +58,7 @@
                 android:layout_height="30dp"
                 android:background="@drawable/ic_credit_card_black_24dp"/>
             <TextView
-                android:id="@+id/tvDocumento"
+                android:id="@+id/tvDocumento_1p_telefono_cnato"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -73,37 +72,82 @@
                 android:layout_below="@+id/tvEstado" />
 
             <View
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:id="@+id/linea"
                 android:layout_below="@+id/ivDocumento"
                 android:layout_width="fill_parent"
                 android:layout_height="1dip"
                 android:background="@color/md_grey_300" />
 
-            <ImageView
-                android:id="@+id/ivPhone"
+            <TextView
+                android:id="@+id/preg_una_2p_d"
                 android:layout_below="@+id/linea"
-                android:layout_marginLeft="20dp"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:background="@drawable/ic_phone_black_24dp"/>
-            <EditText
-                android:id="@+id/edt_s_telefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ivDocumento"
+                android:text="Concretó Venta?"/>
+
+            <RadioGroup
+
+                android:id="@+id/rgroup1"
+                android:layout_below="@+id/linea"
+                android:layout_toRightOf="@+id/preg_una_2p_d"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:hint="Ingrese Teléfono"
-                android:textColor="@color/md_black_1000"
-                android:layout_toEndOf="@id/ivPhone"
-                android:layout_alignLeft="@+id/tvDocumento"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="Si"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_si_1p_2p_d" />
+                <RadioButton
+                    android:text="No"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_no_1p_2p_d" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/preg_dos_2p_d"
+                android:layout_below="@+id/rgroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ivDocumento"
+                android:text="Motivo?"/>
+
+            <RadioGroup
+                android:id="@+id/rgroup2"
+                android:layout_below="@+id/rgroup1"
+                android:layout_toRightOf="@+id/preg_dos_2p_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:text="No Interesado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_si_2p_2p_d" />
+                <RadioButton
+                    android:text="Ya Posee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_no_2p_2p_d" />
+                <RadioButton
+                    android:text="Otro, cual?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb_otro_2p_2p_d" />
+            </RadioGroup>
+
+            <TextView
                 android:gravity="center"
-                android:textSize="14sp"
-                android:inputType="numberSigned"
-                android:layout_below="@+id/linea"
-                android:layout_toRightOf="@id/ivPhone" />
+                android:id="@+id/txt_descrip"
+                android:inputType="text|textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rgroup2"/>
 
             <Button
-                android:id="@+id/aceptar_solo_telefono"
+                android:id="@+id/aceptar_2p_d"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/md_green_300"

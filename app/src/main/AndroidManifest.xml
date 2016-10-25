@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.seratic.drawerfalabella">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:configChanges="orientation|keyboardHidden"
@@ -11,7 +14,7 @@
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
         <activity
-            android:name=".IndexBusq"
+            android:name=".Index"
             android:label=""
             android:screenOrientation="portrait">
             <intent-filter>
@@ -39,7 +42,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".IndexNoBusq"></activity>
     </application>
 
 </manifest>

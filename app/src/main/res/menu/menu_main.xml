@@ -1,11 +1,5 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".IndexBusq">
-    <item
-        android:id="@+id/search_btn"
-        android:orderInCategory="101"
-        android:title="@string/action_settings"
-        app:actionViewClass="android.support.v7.widget.SearchView"
-        android:icon="@drawable/ic_search_white_24dp"
-        app:showAsAction="ifRoom|collapseActionView" />
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Index">
+
 </menu>

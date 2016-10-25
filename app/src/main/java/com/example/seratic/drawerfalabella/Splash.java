@@ -29,7 +29,7 @@ public class Splash extends AppCompatActivity {
     }
 
     private void ingresar() {
-        Intent i = new Intent().setClass(Splash.this, IndexBusq.class);
+        Intent i = new Intent().setClass(Splash.this, Index.class);
         startActivity(i);
         overridePendingTransition(R.anim.left_in, R.anim.left_out);
         finish();

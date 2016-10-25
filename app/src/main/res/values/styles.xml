@@ -8,7 +8,7 @@
     <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/md_green_500</item>
         <item name="colorPrimaryDark">@color/md_green_700</item>
-        <item name="colorAccent">@color/md_pink_500</item>
+        <item name="colorAccent">@color/md_green_500</item>
         <item name="colorControlHighlight">@color/md_green_500_50</item>
         <item name="android:windowBackground">@color/md_white_1000</item>
     </style>

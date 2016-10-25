@@ -23,7 +23,7 @@
             android:background="@color/md_white_1000"
             android:layout_gravity="center">
             <TextView
-                android:id="@+id/tvEstado"
+                android:id="@+id/tvEstado_descripcion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -37,10 +37,10 @@
                 android:layout_marginLeft="20dp"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_below="@+id/tvEstado"
+                android:layout_below="@+id/tvEstado_descripcion"
                 android:background="@drawable/ic_person_black_24dp"/>
             <TextView
-                android:id="@+id/tvNombre"
+                android:id="@+id/tvNombre_descripcion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -50,7 +50,7 @@
                 android:layout_alignTop="@+id/ivUsuario"
                 android:layout_alignBottom="@+id/ivUsuario"
                 android:gravity="center"
-                android:layout_below="@+id/tvEstado" />
+                android:layout_below="@+id/tvEstado_descripcion" />
             <ImageView
                 android:id="@+id/ivDocumento"
                 android:layout_below="@+id/ivUsuario"
@@ -59,7 +59,7 @@
                 android:layout_height="30dp"
                 android:background="@drawable/ic_credit_card_black_24dp"/>
             <TextView
-                android:id="@+id/tvDocumento"
+                android:id="@+id/tvDocumento_descripcion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -89,10 +89,10 @@
                 android:layout_height="30dp"
                 android:background="@drawable/ic_action_content_drafts"/>
             <EditText
-                android:id="@+id/descripcion"
+                android:id="@+id/edt_descripcion"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:hint="Descripción"
+                android:hint="Cual?"
                 android:textColor="@color/md_black_1000"
                 android:gravity="center"
                 android:textSize="14sp"

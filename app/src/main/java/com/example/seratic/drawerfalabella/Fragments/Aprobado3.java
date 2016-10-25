@@ -1,5 +1,6 @@
 package com.example.seratic.drawerfalabella.Fragments;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -39,7 +40,14 @@ public class Aprobado3 extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.aceptar_una_preg_3rtas:
+                SharedPreferences preferencias=getActivity().getSharedPreferences("aprobado", getContext().MODE_PRIVATE);
                 if (si.isChecked()){
+
+                    SharedPreferences.Editor editor=preferencias.edit();
+                    editor.putInt("motivo", 1);
+                    editor.putString("descripcion", "");
+                    editor.commit();
+
                     FragmentManager fragmentManager;
                     FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
@@ -48,6 +56,11 @@ public class Aprobado3 extends Fragment implements View.OnClickListener {
                     fragmentTransaction.replace(R.id.fragment, bandejaClientes);
                     fragmentTransaction.commit();
                 }else if(no.isChecked()){
+                    SharedPreferences.Editor editor=preferencias.edit();
+                    editor.putInt("motivo", 2);
+                    editor.putString("descripcion", "");
+                    editor.commit();
+
                     FragmentManager fragmentManager;
                     FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
@@ -56,6 +69,10 @@ public class Aprobado3 extends Fragment implements View.OnClickListener {
                     fragmentTransaction.replace(R.id.fragment, bandejaClientes);
                     fragmentTransaction.commit();
                 }else if(otro.isChecked()){
+                    SharedPreferences.Editor editor=preferencias.edit();
+                    editor.putInt("motivo", 3);
+                    editor.commit();
+
                     FragmentManager fragmentManager;
                     FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
