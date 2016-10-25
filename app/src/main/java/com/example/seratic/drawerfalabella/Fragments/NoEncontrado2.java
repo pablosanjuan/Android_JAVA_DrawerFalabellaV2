@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,6 +25,8 @@ public class NoEncontrado2 extends Fragment implements View.OnClickListener {
     RadioButton si,no;
     TextView pregunta,estado,nombre,doc;
     EditText telefono;
+    private SharedPreferences prefs;
+    private ImageButton atras;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -38,20 +41,34 @@ public class NoEncontrado2 extends Fragment implements View.OnClickListener {
         nombre = (TextView) view.findViewById(R.id.tvNombre_1p_tlelfono);
         doc = (TextView) view.findViewById(R.id.tvDocumento_1p_telefono);
         estado = (TextView) view.findViewById(R.id.tvEstado_1p_telefono);
-        nombre.setText("Marcela Martinez");
-        doc.setText("16328136");
+        prefs = getActivity().getSharedPreferences("no_encontrado", getContext().MODE_PRIVATE);
+        String nombre_shp = prefs.getString("nombre", "");
+        String doc_shpdoc = prefs.getString("dni", "");
+        nombre.setText(nombre_shp);
+        doc.setText(doc_shpdoc);
         estado.setText("NO ENCONTRADO");
         estado.setTextColor(Color.parseColor("#2196F3"));
         pregunta.setText("Producto?");
         si.setText("Ahorros");
         no.setText("Crédito");
         aceptar.setOnClickListener(this);
+        atras = (ImageButton) view.findViewById(R.id.btn_atras);
+        atras.setOnClickListener(this);
         return view;
     }
 
     @Override
     public void onClick(View view) {
+        FragmentManager fragmentManager;
+        FragmentTransaction fragmentTransaction;
         switch (view.getId()){
+            case R.id.btn_atras:
+                fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                NoEncontrado1 noEncontrado1= new NoEncontrado1();
+                fragmentTransaction.replace(R.id.fragment, noEncontrado1);
+                fragmentTransaction.commit();
+                break;
             case R.id.aceptar_1p_telfono:
                 SharedPreferences preferencias=getActivity().getSharedPreferences("no_encontrado", getContext().MODE_PRIVATE);
                 if (si.isChecked()){
@@ -60,8 +77,6 @@ public class NoEncontrado2 extends Fragment implements View.OnClickListener {
                     editor.putString("telefono", telefono.getText().toString());
                     editor.commit();
 
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     BandejaClientes bandejaClientes= new BandejaClientes();
@@ -73,8 +88,6 @@ public class NoEncontrado2 extends Fragment implements View.OnClickListener {
                     editor.putString("telefono", telefono.getText().toString());
                     editor.commit();
 
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     BandejaClientes bandejaClientes= new BandejaClientes();
@@ -83,6 +96,7 @@ public class NoEncontrado2 extends Fragment implements View.OnClickListener {
             }else {
                     Toast.makeText(getContext(),"Debe seleccionar",Toast.LENGTH_LONG).show();
                 }
+                break;
         }
     }
 }

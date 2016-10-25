@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
@@ -24,6 +25,7 @@ public class RegNoEncontrado1 extends Fragment implements View.OnClickListener {
     TextView pregunta1,pregunta2,estado, nombre, doc,desc;
     EditText tel;
     private SharedPreferences prefs;
+    private ImageButton atras;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -41,30 +43,41 @@ public class RegNoEncontrado1 extends Fragment implements View.OnClickListener {
         no = (RadioButton) view.findViewById(R.id.rb_no_1p_2p_t);
         si1 = (RadioButton) view.findViewById(R.id.rb_si_2p_2p_t);
         no2 = (RadioButton) view.findViewById(R.id.rb_no_2p_2p_t);
-        pregunta1.setText("Se Ofrece?");
+        pregunta1.setText("Se Ofrece producto?");
         pregunta2.setText("Producto??");
         si1.setText("Ahorros");
         no2.setText("Crédito");
-        nombre.setText("Marcela Martinez");
-        doc.setText("16328136");
+        prefs = getActivity().getSharedPreferences("no_encontrado", getContext().MODE_PRIVATE);
+        String nombre_shp = prefs.getString("nombre", "");
+        String doc_shpdoc = prefs.getString("dni", "");
+        nombre.setText(nombre_shp);
+        doc.setText(doc_shpdoc);
         estado.setText("NO ENCONTRADO");
         estado.setTextColor(Color.parseColor("#2196F3"));
         aceptar.setOnClickListener(this);
+        atras = (ImageButton) view.findViewById(R.id.btn_atras);
+        atras.setOnClickListener(this);
 
         prefs = getActivity().getSharedPreferences("no_encontrado", getContext().MODE_PRIVATE);
         tel.setText(prefs.getString("telefono", ""));
         int conc = prefs.getInt("ofrece", 0);
         if (conc==1){
             si.setChecked(true);
-        }else {
+        }else if (conc==2){
             no.setChecked(true);
+        }else {
+            si.setChecked(false);
+            no.setChecked(false);
         }
 
         int prod = prefs.getInt("producto", 0);
         if (prod==1){
             si1.setChecked(true);
-        }else {
+        }else if (prod==2){
             no2.setChecked(true);
+        }else {
+            si1.setChecked(false);
+            no2.setChecked(false);
         }
 
         return view;
@@ -72,10 +85,17 @@ public class RegNoEncontrado1 extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
+        FragmentManager fragmentManager;
+        FragmentTransaction fragmentTransaction;
         switch (view.getId()){
+            case R.id.btn_atras:
+                fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                RegistroLlamadas registroLlamadas1= new RegistroLlamadas();
+                fragmentTransaction.replace(R.id.fragment, registroLlamadas1);
+                fragmentTransaction.commit();
+                break;
             case R.id.aceptar_2p_t:
-                FragmentManager fragmentManager;
-                FragmentTransaction fragmentTransaction;
                 fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentTransaction = fragmentManager.beginTransaction();
                 RegistroLlamadas registroLlamadas= new RegistroLlamadas();

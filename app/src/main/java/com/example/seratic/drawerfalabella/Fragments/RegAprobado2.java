@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
@@ -21,6 +22,8 @@ public class RegAprobado2 extends Fragment implements View.OnClickListener {
     RadioButton si,no,si1,no2,otro2;
     private SharedPreferences prefs;
     TextView desc;
+    private ImageButton atras;
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
@@ -34,14 +37,18 @@ public class RegAprobado2 extends Fragment implements View.OnClickListener {
         otro2 = (RadioButton) view.findViewById(R.id.rb_otro_2p_2p_d);
         desc = (TextView) view.findViewById(R.id.txt_descrip);
         aceptar.setOnClickListener(this);
-
+        atras = (ImageButton) view.findViewById(R.id.btn_atras);
+        atras.setOnClickListener(this);
 
         prefs = getActivity().getSharedPreferences("aprobado", getContext().MODE_PRIVATE);
         int conc = prefs.getInt("concreto", 0);
         if (conc==1){
             si.setChecked(true);
-        }else {
+        }else if (conc==2){
             no.setChecked(true);
+        }else {
+            si.setChecked(false);
+            no.setChecked(false);
         }
 
         int moti = prefs.getInt("motivo", 0);
@@ -49,8 +56,12 @@ public class RegAprobado2 extends Fragment implements View.OnClickListener {
             si1.setChecked(true);
         }else if (moti==2){
             no2.setChecked(true);
-        }else {
+        }else if (moti==3){
             otro2.setChecked(true);
+        }else {
+            si1.setChecked(false);
+            no2.setChecked(false);
+            otro2.setChecked(false);
         }
 
         desc.setText("Descripción:"+prefs.getString("descripcion", ""));
@@ -59,14 +70,21 @@ public class RegAprobado2 extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
+        FragmentManager fragmentManager;
+        FragmentTransaction fragmentTransaction;
         switch (view.getId()){
-            case R.id.aceptar_2p_d:
-                FragmentManager fragmentManager;
-                FragmentTransaction fragmentTransaction;
+            case R.id.btn_atras:
                 fragmentManager = getActivity().getSupportFragmentManager();
                 fragmentTransaction = fragmentManager.beginTransaction();
-                BandejaClientes bandejaClientes = new BandejaClientes();
-                fragmentTransaction.replace(R.id.fragment, bandejaClientes);
+                RegistroLlamadas registroLlamadas1= new RegistroLlamadas();
+                fragmentTransaction.replace(R.id.fragment, registroLlamadas1);
+                fragmentTransaction.commit();
+                break;
+            case R.id.aceptar_2p_d:
+                fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                RegistroLlamadas registroLlamadas= new RegistroLlamadas();
+                fragmentTransaction.replace(R.id.fragment, registroLlamadas);
                 fragmentTransaction.commit();
         }
     }

@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,6 +23,7 @@ public class ResConsultasAprob4 extends Fragment implements View.OnClickListener
     private RadioButton si,no,otro;
     TextView prgunta;
     private SharedPreferences prefs;
+    private ImageButton atras;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -38,6 +40,8 @@ public class ResConsultasAprob4 extends Fragment implements View.OnClickListener
         si.setText("Si");
         no.setText("No");
         otro.setText("Pendiente");
+        atras = (ImageButton) view.findViewById(R.id.btn_atras);
+        atras.setOnClickListener(this);
 
         prefs = getActivity().getSharedPreferences("canto", getContext().MODE_PRIVATE);
 
@@ -58,7 +62,16 @@ public class ResConsultasAprob4 extends Fragment implements View.OnClickListener
 
     @Override
     public void onClick(View view) {
+        FragmentManager fragmentManager;
+        FragmentTransaction fragmentTransaction;
         switch (view.getId()){
+            case R.id.btn_atras:
+                fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                ResConsultasAprob3 resConsultasAprob3= new ResConsultasAprob3();
+                fragmentTransaction.replace(R.id.fragment, resConsultasAprob3);
+                fragmentTransaction.commit();
+                break;
             case R.id.aceptar_una_preg_3rtas:
                 SharedPreferences preferencias=getActivity().getSharedPreferences("canto", getContext().MODE_PRIVATE);
                 if (si.isChecked()){
@@ -66,8 +79,6 @@ public class ResConsultasAprob4 extends Fragment implements View.OnClickListener
                     editor.putInt("estado", 1);
                     editor.commit();
 
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     ResumenConsultas resumenConsultas = new ResumenConsultas();
@@ -78,8 +89,6 @@ public class ResConsultasAprob4 extends Fragment implements View.OnClickListener
                     editor.putInt("estado", 2);
                     editor.commit();
 
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     ResumenConsultas resumenConsultas = new ResumenConsultas();
@@ -90,8 +99,6 @@ public class ResConsultasAprob4 extends Fragment implements View.OnClickListener
                     editor.putInt("estado", 3);
                     editor.commit();
 
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     ResumenConsultas resumenConsultas = new ResumenConsultas();
@@ -100,6 +107,7 @@ public class ResConsultasAprob4 extends Fragment implements View.OnClickListener
                 }else {
                     Toast.makeText(getContext(),"Debe seleccionar",Toast.LENGTH_LONG).show();
                 }
+                break;
         }
     }
 }

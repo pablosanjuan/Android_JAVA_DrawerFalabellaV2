@@ -20,6 +20,6 @@
         <item
             android:id="@+id/item_navigation_drawer_setear"
             android:icon="@drawable/ic_action_content_report"
-            android:title="Setear" />
+            android:title="Resetear" />
     </group>
 </menu>

@@ -98,9 +98,9 @@ public class Index extends AppCompatActivity {
                                 return true;
                             case R.id.item_navigation_drawer_setear:
                                 new AlertDialog.Builder(Index.this)
-                                        .setTitle("Setear")
+                                        .setTitle("Resetear")
                                         .setMessage("Borrar todas las variables")
-                                        .setCancelable(false)
+                                        .setCancelable(true)
                                         .setPositiveButton("ok", new DialogInterface.OnClickListener() {
                                             @Override
                                             public void onClick(DialogInterface dialog, int which) {
@@ -115,10 +115,33 @@ public class Index extends AppCompatActivity {
     }
 
     private void setear() {
-        SharedPreferences preferencias=getSharedPreferences("aprobado", MODE_PRIVATE);
-        SharedPreferences.Editor editor=preferencias.edit();
-        editor.putInt("num_llamdas", 0);
-        editor.commit();
+        SharedPreferences preferencias1=getSharedPreferences("aprobado", MODE_PRIVATE);
+        SharedPreferences.Editor editor1=preferencias1.edit();
+        editor1.putInt("concreto", 0);
+        editor1.putString("telefono", "");
+        editor1.putInt("motivo", 0);
+        editor1.putInt("num_llamdas", 0);
+        editor1.putString("descripcion", "");
+        editor1.commit();
+
+        SharedPreferences preferencias2=getSharedPreferences("no_encontrado", MODE_PRIVATE);
+        SharedPreferences.Editor editor2=preferencias2.edit();
+        editor2.putInt("ofrece", 0);
+        editor2.putString("telefono", "");
+        editor2.putInt("producto", 0);
+        editor2.putInt("estado", 0);
+        editor2.putString("dni", "");
+        editor2.putString("descripcion", "");
+        editor2.putString("nombre", "");
+        editor2.commit();
+
+        SharedPreferences preferencias3=getSharedPreferences("canto", MODE_PRIVATE);
+        SharedPreferences.Editor editor3=preferencias3.edit();
+        editor3.putInt("estado", 0);
+        editor3.commit();
+        drawerLayout.closeDrawer(GravityCompat.START);
+        setFragment(0);
+
     }
 
     public void setFragment(int position) {

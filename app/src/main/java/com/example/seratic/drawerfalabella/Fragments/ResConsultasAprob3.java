@@ -29,6 +29,7 @@ public class ResConsultasAprob3 extends Fragment implements View.OnClickListener
     EditText tlefono;
     private SharedPreferences prefs;
     private int posted_by;
+    private ImageButton atras;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -39,6 +40,7 @@ public class ResConsultasAprob3 extends Fragment implements View.OnClickListener
         si = (RadioButton) view.findViewById(R.id.rb_si_1p_telefono_canto);
         no = (RadioButton) view.findViewById(R.id.rb_no_1p_telefono_canto);
         tlefono = (EditText) view.findViewById(R.id.tvPhone_canto);
+        tlefono.setEnabled(false);
         nombre = (TextView) view.findViewById(R.id.tvNombre_1p_tlelfono_canto);
         doc = (TextView) view.findViewById(R.id.tvDocumento_1p_telefono_cnato);
         estado = (TextView) view.findViewById(R.id.tvEstado_1p_telefono_canto);
@@ -54,21 +56,34 @@ public class ResConsultasAprob3 extends Fragment implements View.OnClickListener
         num_llamds.setText("("+prefs.getInt("num_llamdas", 0)+")");
         String tel = prefs.getString("telefono", "");
         tlefono.setText(tel);
+        atras = (ImageButton) view.findViewById(R.id.btn_atras);
+        atras.setOnClickListener(this);
+
         int conc = prefs.getInt("concreto", 0);
         if (conc==1){
             si.setChecked(true);
-        }else {
+        }else if(conc==2){
             no.setChecked(true);
+        }else{
+            si.setChecked(false);
+            no.setChecked(false);
         }
         return view;
     }
 
     @Override
     public void onClick(View view) {
+        FragmentManager fragmentManager;
+        FragmentTransaction fragmentTransaction;
         switch (view.getId()){
+            case R.id.btn_atras:
+                fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                ResConsultasAprob1 resConsultasAprob1= new ResConsultasAprob1();
+                fragmentTransaction.replace(R.id.fragment, resConsultasAprob1);
+                fragmentTransaction.commit();
+                break;
             case R.id.aceptar_1p_telfono_canto:
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     ResConsultasAprob4 resConsultasAprob4= new ResConsultasAprob4();

@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,6 +22,8 @@ public class Denegado2 extends Fragment implements View.OnClickListener {
     Button aceptar;
     RadioButton si,no;
     TextView nombre,estado,doc,pregunta;
+    private ImageButton atras;
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
@@ -39,24 +42,31 @@ public class Denegado2 extends Fragment implements View.OnClickListener {
         estado.setText("DENEGADO");
         pregunta.setText("Cliente acepta el producto?");
         estado.setTextColor(Color.parseColor("#FF5722"));
+        atras = (ImageButton) view.findViewById(R.id.btn_atras);
+        atras.setOnClickListener(this);
         return view;
     }
 
     @Override
     public void onClick(View view) {
+        FragmentManager fragmentManager;
+        FragmentTransaction fragmentTransaction;
         switch (view.getId()){
+            case R.id.btn_atras:
+                fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                Denegado1 denegado1= new Denegado1();
+                fragmentTransaction.replace(R.id.fragment, denegado1);
+                fragmentTransaction.commit();
+                break;
             case R.id.aceptar_una_preg:
                 if (si.isChecked()){
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     BandejaClientes bandejaClientes= new BandejaClientes();
                     fragmentTransaction.replace(R.id.fragment, bandejaClientes);
                     fragmentTransaction.commit();
                 }else if(no.isChecked()){
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     BandejaClientes bandejaClientes= new BandejaClientes();

@@ -29,13 +29,6 @@ public class RegistroLlamadas extends Fragment implements View.OnClickListener {
             "Prod: Ahorros",
     };
 
-    String[] descripcion = new String[]{
-            "Jose Luis Ceron",
-            "Marcela Martinez",
-            "Pablo Sanjuan",
-            "Marcela Martinez",
-    };
-
     String[] hora = new String[]{
             "3 min",
             "5 hr",
@@ -69,6 +62,15 @@ public class RegistroLlamadas extends Fragment implements View.OnClickListener {
         final View view = inflater.inflate(R.layout.fragment_bandeja_clientes, container, false);
         ((Index) getActivity()).getSupportActionBar().setTitle("Registro de Llamadas");
 
+        prefs = getActivity().getSharedPreferences("no_encontrado", getContext().MODE_PRIVATE);
+        String nombre_shp = prefs.getString("nombre", "");
+        String[] descripcion = new String[]{
+                "Jose Luis Ceron",
+                nombre_shp,
+                "Pablo Sanjuan",
+                nombre_shp,
+        };
+
         final ListView lista = (ListView) view.findViewById(R.id.listView1);
         adapter = new ListViewAdapter2(getContext(), titulo, descripcion, estado, hora, imagenes);
         lista.setAdapter(adapter);
@@ -89,7 +91,7 @@ public class RegistroLlamadas extends Fragment implements View.OnClickListener {
                         comprobar("nn");
                         break;
                     case 2:
-                        comprobar("dd");
+
                         break;
                     case 3:
                         comprobar("nn");
@@ -173,7 +175,7 @@ public class RegistroLlamadas extends Fragment implements View.OnClickListener {
     }
 
     public void err() {
-        Toast toast1 = Toast.makeText(getContext(), "Ingrese dni, nombre ó Cédula para realizar una busqueda", Toast.LENGTH_SHORT);
+        Toast toast1 = Toast.makeText(getContext(), "Ingrese DNI para realizar una busqueda", Toast.LENGTH_SHORT);
         toast1.show();
     }
 

@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
@@ -19,6 +20,7 @@ public class Aprobado3 extends Fragment implements View.OnClickListener {
 
     Button aceptar;
     private RadioButton si,no,otro;
+    private ImageButton atras;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -33,12 +35,23 @@ public class Aprobado3 extends Fragment implements View.OnClickListener {
         si.setText("No Interesado");
         no.setText("Ya Posee");
         otro.setText("Otro, cual?");
+        atras = (ImageButton) view.findViewById(R.id.btn_atras);
+        atras.setOnClickListener(this);
         return view;
     }
 
     @Override
     public void onClick(View view) {
+        FragmentManager fragmentManager;
+        FragmentTransaction fragmentTransaction;
         switch (view.getId()){
+            case R.id.btn_atras:
+                fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                Aprobado1 aprobado1= new Aprobado1();
+                fragmentTransaction.replace(R.id.fragment, aprobado1);
+                fragmentTransaction.commit();
+                break;
             case R.id.aceptar_una_preg_3rtas:
                 SharedPreferences preferencias=getActivity().getSharedPreferences("aprobado", getContext().MODE_PRIVATE);
                 if (si.isChecked()){
@@ -48,8 +61,6 @@ public class Aprobado3 extends Fragment implements View.OnClickListener {
                     editor.putString("descripcion", "");
                     editor.commit();
 
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     BandejaClientes bandejaClientes = new BandejaClientes();
@@ -61,8 +72,7 @@ public class Aprobado3 extends Fragment implements View.OnClickListener {
                     editor.putString("descripcion", "");
                     editor.commit();
 
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
+
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     BandejaClientes bandejaClientes = new BandejaClientes();
@@ -73,8 +83,7 @@ public class Aprobado3 extends Fragment implements View.OnClickListener {
                     editor.putInt("motivo", 3);
                     editor.commit();
 
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
+
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     Aprobado4 aprobado4 = new Aprobado4();
@@ -83,6 +92,7 @@ public class Aprobado3 extends Fragment implements View.OnClickListener {
                 }else {
                     Toast.makeText(getContext(),"Debe seleccionar",Toast.LENGTH_LONG).show();
                 }
+                break;
         }
     }
 }

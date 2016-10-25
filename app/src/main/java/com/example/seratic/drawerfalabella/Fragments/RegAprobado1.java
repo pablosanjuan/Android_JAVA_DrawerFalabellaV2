@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 
 import com.example.seratic.drawerfalabella.R;
@@ -21,6 +22,8 @@ public class RegAprobado1 extends Fragment implements View.OnClickListener {
     RadioButton si,no;
     EditText telefono;
     private SharedPreferences prefs;
+    private ImageButton atras;
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
@@ -31,7 +34,8 @@ public class RegAprobado1 extends Fragment implements View.OnClickListener {
         si = (RadioButton) view.findViewById(R.id.rb_si_1p_telefono);
         no = (RadioButton) view.findViewById(R.id.rb_no_1p_telefono);
         aceptar.setOnClickListener(this);
-
+        atras = (ImageButton) view.findViewById(R.id.btn_atras);
+        atras.setOnClickListener(this);
 
         prefs = getActivity().getSharedPreferences("aprobado", getContext().MODE_PRIVATE);
         String tel = prefs.getString("telefono", "");
@@ -39,8 +43,11 @@ public class RegAprobado1 extends Fragment implements View.OnClickListener {
         int conc = prefs.getInt("concreto", 0);
         if (conc==1){
             si.setChecked(true);
-        }else {
+        }else if (conc==2){
             no.setChecked(true);
+        }else {
+            si.setChecked(false);
+            no.setChecked(false);
         }
 
         return view;
@@ -48,10 +55,17 @@ public class RegAprobado1 extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
+        FragmentManager fragmentManager;
+        FragmentTransaction fragmentTransaction;
         switch (view.getId()){
+            case R.id.btn_atras:
+                fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
+                RegistroLlamadas registroLlamadas1= new RegistroLlamadas();
+                fragmentTransaction.replace(R.id.fragment, registroLlamadas1);
+                fragmentTransaction.commit();
+                break;
             case R.id.aceptar_1p_telfono:
-                    FragmentManager fragmentManager;
-                    FragmentTransaction fragmentTransaction;
                     fragmentManager = getActivity().getSupportFragmentManager();
                     fragmentTransaction = fragmentManager.beginTransaction();
                     RegistroLlamadas registroLlamadas= new RegistroLlamadas();

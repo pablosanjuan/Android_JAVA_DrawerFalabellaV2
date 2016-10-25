@@ -126,7 +126,7 @@ public class BandejaClientes extends Fragment implements View.OnClickListener {
                 fragmentTransaction.commit();
                 break;
             case "nn":
-                SharedPreferences preferencias1=getActivity().getSharedPreferences("dato", getContext().MODE_PRIVATE);
+                SharedPreferences preferencias1=getActivity().getSharedPreferences("no_encontrado", getContext().MODE_PRIVATE);
                 SharedPreferences.Editor editor1=preferencias1.edit();
                 editor1.putString("dni", "3875345");
                 editor1.commit();
@@ -139,7 +139,7 @@ public class BandejaClientes extends Fragment implements View.OnClickListener {
                 break;
             default:
                 String dni_dato = buscar_edt.getText().toString();
-                SharedPreferences preferencias=getActivity().getSharedPreferences("dato", getContext().MODE_PRIVATE);
+                SharedPreferences preferencias=getActivity().getSharedPreferences("no_encontrado", getContext().MODE_PRIVATE);
                 SharedPreferences.Editor editor=preferencias.edit();
                 editor.putString("dni", dni_dato);
                 editor.commit();
